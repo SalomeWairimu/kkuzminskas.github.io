@@ -80,11 +80,31 @@ body {
 	margin-top: 200px;
 }
 
-.graph {
+.graph_wrapper {
 	float: right;
 	margin-top: 100px;
 	margin-right: 200px;
 	margin-left: 20px;
 	margin-bottom: 20px;
 
+}
+
+#graph{
+
+}
+
+#graph_button_wrapper{
+
+}
+
+#graph_yearly_button{
+	width: 50px;
+}
+
+#graphy_monthly_button{
+	width: 50px;
+}
+
+#graphy_weekly_button{
+	width: 50px;
 }
