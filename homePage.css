@@ -28,6 +28,7 @@ body {
 .top-text {
 	font-size: 25px;
 	font-weight:bold;
+	color: black;
 }
 
 .top-add-text {
@@ -38,6 +39,7 @@ body {
 
 .text-box {
 	font-size: 18px;
+	color: black;
 }
 
 
