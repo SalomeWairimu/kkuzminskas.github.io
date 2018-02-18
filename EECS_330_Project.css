@@ -99,10 +99,12 @@ body {
 
 #graph_yearly_button{
 	width: 50px;
+	margin-right: 20px;
 }
 
 #graphy_monthly_button{
 	width: 50px;
+	margin-right: 20px;
 }
 
 #graphy_weekly_button{
