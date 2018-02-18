@@ -1,0 +1,90 @@
+
+body {
+	font-family: Arial;
+	background: #add8e6;
+}
+
+.navbar {
+	background-color: black;
+	font-size: 15px;
+	padding-top: 20px
+	margin: auto;
+	padding-top: 40px;
+	margin-bottom: 10px;
+}
+
+#site-name {
+	font-size: 30px;
+	padding-right: 50px;
+	font-weight: bold;
+	padding-top: 0px;
+	margin-top: -20px;
+
+}
+
+.nav
+{
+	float:left;
+	margin-left: -100px;
+
+}
+
+.profile-pic
+{	float: right;
+	margin-bottom: 20px;
+	margin-right:20px;
+}
+
+.dropdown-menu
+{
+	margin-left: -120px;
+}
+
+.page-wrapper{
+	margin-top: 100px;
+}
+
+.app_info_wrapper {
+	float: left;
+	width: 350px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.app_photo img {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+.app_name {
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: red;
+}
+
+.app_stats {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+.unsubscribe {
+	color: blue;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 200px;
+}
+
+.graph {
+	float: right;
+	margin-top: 100px;
+	margin-right: 200px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+}

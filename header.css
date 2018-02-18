@@ -1,0 +1,42 @@
+
+body {
+	background-color: #add8e6;
+	font-family: Arial;
+}
+
+
+.navbar {
+	background-color: black;
+	font-size: 15px;
+	padding-top: 20px
+	margin: auto;
+	padding-top: 40px;
+}
+
+#site-name {
+	font-size: 30px;
+	padding-right: 50px;
+	font-weight: bold;
+	padding-top: 0px;
+	margin-top: -20px;
+
+}
+
+.nav
+{
+	float:left;
+	margin-left: -100px;
+
+}
+
+.profile-pic
+{	float: right;
+	margin-bottom: 20px;
+	margin-right:20px;
+}
+
+.dropdown-menu
+{
+	margin-left: -120px;
+}
+
