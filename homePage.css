@@ -28,16 +28,19 @@ body {
 .top-text {
 	font-size: 25px;
 	font-weight:bold;
+	text-decoration: none;
 }
 
 .top-add-text {
 	font-size: 25px;
 	font-weight:bolder;
 	color: grey;
+	text-decoration: none;
 }
 
 .text-box {
 	font-size: 18px;
+	text-decoration: none;
 }
 
 
