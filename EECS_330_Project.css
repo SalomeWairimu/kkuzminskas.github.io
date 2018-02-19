@@ -89,22 +89,22 @@ body {
 
 }
 
-#graph{
+.graph{
 
 }
 
-#graph_button_wrapper{
+.graph_button_wrapper{
 
 }
 
-#graph_yearly_button{
+.graph_yearly_button{
 	width: 50px;
 }
 
-#graphy_monthly_button{
+.graphy_monthly_button{
 	width: 50px;
 }
 
-#graphy_weekly_button{
+.graphy_weekly_button{
 	width: 50px;
 }
