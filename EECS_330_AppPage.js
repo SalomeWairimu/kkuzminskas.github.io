@@ -1,5 +1,5 @@
 function  graph_swap_monthly(){
-	document.getElementById("graph").src ="/images/mock_monthly_graph.jpeg";
+	document.getElementById("graph").setAttribute() ="/images/mock_monthly_graph.jpeg";
 }
 
 
