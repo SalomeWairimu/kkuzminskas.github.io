@@ -4,6 +4,8 @@ body {
 	background: #add8e6;
 }
 
+/* EECS_330_AppPage */
+
 .navbar {
 	background-color: black;
 	font-size: 15px;
@@ -106,5 +108,65 @@ body {
 }
 
 #graphy_weekly_button{
+
+}
+
+/* EECS_330_My_Profile_Page */
+
+.header{
+	font-size: 30px;
+	float: left;
+	font-weight: bold;
+}
+
+.profile_picture{
+
+}
+
+.profile_info_wrapper{
+
+}
+
+.profile_name{
+
+}
+
+.profile_favorite_subscription{
+
+}
+
+.edit_button{
+
+}
+
+.tab_wrapper{
+
+}
+
+.subscription_tab{
+
+}
+
+.friends_tab{
+
+}
+
+.subscription_tab_photo{
+
+}
+
+.friends_tab_photo{
+
+}
+
+.subscription_tab_info{
+
+}
+
+.friends_tab_name{
+
+}
+
+#shared_with_info{
 
 }
