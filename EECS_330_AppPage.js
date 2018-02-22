@@ -4,7 +4,7 @@ function  graph_swap_monthly(){
 
 
 function graph_swap_yearly(){
-	document.getElementById("graph").src = "images/mock_graph.jpeg";
+	document.getElementById("graph").src = "mock_graph.jpeg";
 }
 
 function graph_swap_weekly(){
