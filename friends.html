@@ -1,0 +1,134 @@
+<html lang="en">
+<head>>
+  <title>Website Header</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="header.css"/>
+<link rel="stylesheet" type="text/css" href="friends.css"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- ################################# -->
+  <!-- HEADER -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#testNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id="site-name" href="#">MySubscriptionAddiction</a>
+        </div>
+        <ul class="nav nav-tabs">
+          <li class="tab"><a href="homePage.html">My Subscriptions</a></li>
+          <li class="tab active" ><a href="friends.html">My Friends</a></li>
+          <li><a class="tab" href="#">Search for subscriptions</a></li>
+        </ul>
+        <ul class="profile-pic navbar-nav">
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="material-icons">person</i><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Account Information</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Log Out</a></li>
+              </ul>
+            </li>
+          </ul>
+
+      </div>
+      
+    </nav>
+
+
+
+  <!-- ################################# -->
+  <!-- END OF HEADER -->
+  <div id="myBtnContainer" style="margin-top: 120px">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('netflix')"> Netflix</button>
+        <button class="btn" onclick="filterSelection('hulu')"> Hulu</button>
+        <button class="btn" onclick="filterSelection('prime')"> Prime</button>
+    </div>
+    <div id="main_page">
+            <a href = "friend1.html" class="filterDiv netflix"  class="leftMost">
+                <div class = "friend-box">
+                        <img id="ron" src="ron2.jpg"/>
+                      <p class = "top-text"> Ron Swan Son</p>
+                      <p class = "text-box"> Favorite subscription: Netflix </p>
+                </div>
+            </a>
+            <a href = "friend1.html" class="filterDiv netflix">
+                <div class = "friend-box">
+                        <img id="ron" src="gator.png"/>
+                      <p class = "top-text"> Jim Boe </p>
+                      <p class = "text-box"> Favorite subscription: Netflix </p>
+                </div>
+            </a>
+            <a href = "friend1.html" class="filterDiv hulu">
+                <div class = "friend-box">
+                    <img id="barney" src="barney.jpg"/>
+                      <p class = "top-text"> Barney Stinson </p>
+                      <p class = "text-box"> Favorite subscription: Hulu </p>
+                </div>
+            </a>
+            <a href = "friend1.html" class="filterDiv prime" class="leftMost">
+                    <div class = "friend-box"style="margin-top:80px" >
+                            <img id="ron" src="rachel.jpeg"/>
+                          <p class = "top-text"> Rachel Green </p>
+                          <p class = "text-box"> Favorite subscription:Prime </p>
+                    </div>
+            </a>
+          </div>
+          <script>
+                filterSelection("all")
+                function filterSelection(c) {
+                  var x, i;
+                  x = document.getElementsByClassName("filterDiv");
+                  if (c == "all") c = "";
+                  for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], "show");
+                    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                  }
+                }
+                
+                function w3AddClass(element, name) {
+                  var i, arr1, arr2;
+                  arr1 = element.className.split(" ");
+                  arr2 = name.split(" ");
+                  for (i = 0; i < arr2.length; i++) {
+                    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+                  }
+                }
+                
+                function w3RemoveClass(element, name) {
+                  var i, arr1, arr2;
+                  arr1 = element.className.split(" ");
+                  arr2 = name.split(" ");
+                  for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                    }
+                  }
+                  element.className = arr1.join(" ");
+                }
+                
+                // Add active class to the current button (highlight it)
+                var btnContainer = document.getElementById("myBtnContainer");
+                var btns = btnContainer.getElementsByClassName("btn");
+                for (var i = 0; i < btns.length; i++) {
+                  btns[i].addEventListener("click", function(){
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                  });
+                }
+                </script>
+                </body>
+                </html>
