@@ -1,4 +1,3 @@
-
 body {
 	font-family: Arial;
 	background: #add8e6;
@@ -10,7 +9,6 @@ body {
 	padding-top: 20px
 	margin: auto;
 	padding-top: 40px;
-	margin-bottom: 10px;
 }
 
 #site-name {
@@ -43,6 +41,10 @@ body {
 .page-wrapper{
 	margin-top: 100px;
 }
+
+/* page specific css */
+
+/* EECS_330_AppPage */
 
 .app_info_wrapper {
 	float: left;
@@ -90,7 +92,8 @@ body {
 }
 
 #graph{
-
+	width: 500px;
+	height: 500px;
 }
 
 .graph_button_wrapper{
@@ -106,5 +109,95 @@ body {
 }
 
 #graphy_weekly_button{
+
+}
+
+/* EECS_330_My_Profile_Page */
+
+.header{
+	font-size: 30px;
+	float: left;
+	font-weight: bold;
+}
+
+.profile_page_picture{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+.profile_info_wrapper{
+	float: left;
+	width: 350px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.profile_name{
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.profile_favorite_subscription{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#edit_picture_button{
+
+}
+
+#edit_profile_button{
+
+}
+
+.tab_wrapper{
+	width: ;
+	margin-top: ;
+	margin-bottom: ;
+}
+
+.subscription_tab{
+	float: left;
+	margin-left: ;
+}
+
+.friends_tab{
+	float: left;
+}
+
+.subheader_wrapper{
+	margin-top: ;
+	margin-bottom: ;
+}
+
+.subscription_tab_photo{
+	width: ;
+	height: ;
+}
+
+.friends_tab_photo{
+	width: ;
+	height: ;
+}
+
+.subscription_tab_info{
+	font-size: ;
+
+}
+
+.friends_tab_name{
+	font-size: ;
+
+}
+
+.main-page{
+	margin-top: 20px;
+}
+
+#shared_with_info{
 
 }

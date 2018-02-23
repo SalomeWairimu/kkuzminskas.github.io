@@ -7,20 +7,20 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="EECS_330_AppPage.js"> </script>
 <link rel="stylesheet" type="text/css" href="header.css"/>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
 </head>
 <body>
-
-  <link rel="stylesheet" type="text/css" href="EECS_330_Project.css"/>
+	<link rel="stylesheet" type="text/css" href="EECS_330_Project.css"/>
 
   <body>
 
     <!-- ################################# -->
     <!-- HEADER -->
+
+    <!-- templates? -->
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -32,9 +32,9 @@
             <a class="navbar-brand" id="site-name" href="homePage.html">MySubscriptionAddiction</a>
           </div>
           <ul class="nav nav-tabs">
-            <li class="tab active"><a href="homePage.html">My Subscriptions</a></li>
-            <li><a  href="friends.html">My Friends</a></li>
-            <li><a href="#">Search for subscriptions</a></li>
+            <li><a class="tab" href="homePage.html">My Subscriptions</a></li>
+            <li><a class="tab" href="friends.html">My Friends</a></li>
+            <li><a class="tab" href="#">Search for subscriptions</a></li>
           </ul>
           <ul class="profile-pic navbar-nav">
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="material-icons">person</i><span class="caret"></span></a>
@@ -54,27 +54,5 @@
 
     <!-- ################################# -->
     <!-- END OF HEADER -->
-</body>
 
-<div class="main-page">
-  <div class="page-wrapper">
-    <div class="app_photo"> <img src="/images/netflix_logo.jpeg"> </div>
-   <div class="app_info_wrapper">
-    <div class="app_name"> Netflix </div>
-    <div class="app_stats"> Cost: $10/month </div>
-    <div class="app_stats"> Usage this month: 13 hours </div>
-    <div class="app_stats"> Current plan: Normal, Monthly renewal </div>
-    <div class="unsubscribe"> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> UNSUBSCRIBE </a> </div>
-  </div>
-  <div class="graph_wrapper"> <div class="graph_button_wrapper">
-    <button id="graph_yearly_button" onclick="graph_swap_yearly()">Yearly</button>
-    <button id="graph_monthly_button" onclick="graph_swap_monthly()">Monthly</button>
-    <button id="graph_weekly_button" onclick="graph_swap_weekly()">Weekly</button></div>
-    <img id="graph" src="/images/mock_graph.jpeg"> </div>
-</div>
-</div>
-
-</body>
-
-
-</html>
+  </body>
