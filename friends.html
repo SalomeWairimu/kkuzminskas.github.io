@@ -29,12 +29,12 @@
         <ul class="nav nav-tabs">
           <li class="tab"><a href="homePage.html">My Subscriptions</a></li>
           <li class="tab active" ><a href="friends.html">My Friends</a></li>
-          <li><a class="tab" href="#">Search for subscriptions</a></li>
+          <li class="tab"><a href="#">Search for subscriptions</a></li>
         </ul>
         <ul class="profile-pic navbar-nav">
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="material-icons">person</i><span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">My Profile</a></li>
+                <li><a href="EECS_330_My_Profile_Page.html">My Profile</a></li>
                 <li><a href="#">Account Information</a></li>
                 <li><a href="#">Settings</a></li>
                 <li><a href="#">Log Out</a></li>
@@ -43,7 +43,7 @@
           </ul>
 
       </div>
-      
+
     </nav>
 
 
@@ -97,7 +97,7 @@
                     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
                   }
                 }
-                
+
                 function w3AddClass(element, name) {
                   var i, arr1, arr2;
                   arr1 = element.className.split(" ");
@@ -106,19 +106,19 @@
                     if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
                   }
                 }
-                
+
                 function w3RemoveClass(element, name) {
                   var i, arr1, arr2;
                   arr1 = element.className.split(" ");
                   arr2 = name.split(" ");
                   for (i = 0; i < arr2.length; i++) {
                     while (arr1.indexOf(arr2[i]) > -1) {
-                      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                      arr1.splice(arr1.indexOf(arr2[i]), 1);
                     }
                   }
                   element.className = arr1.join(" ");
                 }
-                
+
                 // Add active class to the current button (highlight it)
                 var btnContainer = document.getElementById("myBtnContainer");
                 var btns = btnContainer.getElementsByClassName("btn");
