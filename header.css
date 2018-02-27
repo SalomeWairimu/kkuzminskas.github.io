@@ -1,11 +1,12 @@
 
 body {
-	background-color: #add8e6;
+	background-color: white;
 	font-family: Arial;
 }
 
 
 .navbar {
+	height: 107px;
 	background-color: black;
 	font-size: 15px;
 	padding-top: 20px
@@ -19,28 +20,44 @@ body {
 	font-weight: bold;
 	padding-top: 0px;
 	margin-top: -20px;
-
+	color: #20A4F3;
+	padding-right: 700px;
 }
 
 .nav
 {
 	float:left;
-	margin-left: -100px;
-
+	margin-top:-20px;
 }
 
-.profile-pic
-{	float: right;
-	margin-bottom: 20px;
-	margin-right:20px;
-}
 
-.dropdown-menu
+#tabs_font
 {
-	margin-left: -120px;
+	color: white;
 }
 
 .nav .tab {
 	margin-top: 15px;
 
+}
+
+.profile-pic
+{	float: right;
+	margin-top: -15px;
+	margin-right: 15px;
+}
+
+#dropdown_button {
+	color: white;
+	margin-right: 20px;
+}
+
+#dropdown_person{
+	color: white;
+	width: 40px;
+	height: 40px;
+}
+
+.dropdown-menu {
+	margin-left: -80px;
 }
