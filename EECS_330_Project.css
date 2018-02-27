@@ -33,6 +33,7 @@ body {
 
 #tabs_font
 {
+	margin-top: 15px;
 	color: white;
 }
 
@@ -59,7 +60,7 @@ body {
 }
 
 .dropdown-menu {
-	margin-left: -80px;
+	margin-left: -100px;
 }
 
 .page-wrapper{
