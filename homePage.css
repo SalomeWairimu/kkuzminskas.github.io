@@ -47,7 +47,7 @@ body {
 
 .profile-pic
 {
-	float: right;
+	justify-content: flex-end;
 	margin-top: -15px;
 	margin-right: 15px;
 }
