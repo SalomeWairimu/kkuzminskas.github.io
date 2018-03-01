@@ -122,20 +122,36 @@ body {
 	height: 450px;
 }
 
-.graph_button_wrapper{
+.graph_button_wrapper {
 
 }
 
-#graph_yearly_button{
+#graph_yearly_button {
 
 }
 
-#graphy_monthly_button{
+#graphy_monthly_button {
 
 }
 
-#graphy_weekly_button{
+#graphy_weekly_button{ 
 
+}
+
+#graph_button .btn{
+    border: 0.5px solid grey;
+    outline: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#graph_button .btn:hover{
+	background-color: #ddd;
+}
+
+#graph_button .btn.active{
+    background-color:#425458;
+    color: white;
 }
 
 
