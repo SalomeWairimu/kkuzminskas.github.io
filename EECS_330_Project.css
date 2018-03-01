@@ -134,7 +134,7 @@ body {
 
 }
 
-#graphy_weekly_button{ 
+#graphy_weekly_button{
 
 }
 
@@ -235,6 +235,16 @@ body {
 	margin-top: 30px;
 	margin-right: 40px;
 	width:330px;
+}
+
+.all-box:hover{
+	background-color:#20A4F3;
+
+}
+
+.friend-box:hover{
+	background-color:#20A4F3;
+
 }
 
 .all-logo {
