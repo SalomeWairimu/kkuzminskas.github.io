@@ -76,6 +76,7 @@ body {
 	width: 350px;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	border-color: grey;
 }
 
 .app_photo img {
