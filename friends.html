@@ -13,6 +13,7 @@
 </head>
 <body>
 
+
   <!-- ################################# -->
   <!-- HEADER -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -27,11 +28,11 @@
         </div>
         <ul class="nav nav-tabs">
           <li class="tab"><a id="tabs_font" href="homePage.html">My Subscriptions</a></li>
-          <li class="tab active" ><a href="friends.html">My Friends</a></li>
+          <li class="tab active" id="friends_tab_active"><a href="friends.html">My Friends</a></li>
           <li class="tab"><a id="tabs_font" href="#">Search for subscriptions</a></li>
         </ul>
         <ul class="profile-pic navbar-nav">
-        <ul class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="material-icons">person</i><span class="caret"></span></a>
+        <ul class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><img id="dropdown_person" src="images/rocket.png"><span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="EECS_330_My_Profile_Page.html">My Profile</a></li>
                 <li><a href="#">Account Information</a></li>
@@ -57,7 +58,14 @@
         <button class="btn" onclick="filterSelection('hbo')"> HBO</button>
     </div>
     <div id="main_page">
+<<<<<<< HEAD
             
+=======
+
+
+
+
+>>>>>>> d258067a7b8d7f560adf6426eeb4b99de26bbcee
                 <div class = "friend-box">
                     <a href = "friend1.html" class="filterDiv netflix">
                         <img class="all-logo" id="jim" src="images/gator.png"/>
@@ -65,7 +73,7 @@
                       <p class = "text-box"> Favorite subscription: Netflix </p>
                       </a>
                 </div>
-            
+
                 <div class = "friend-box">
                   <a href = "friend1.html" class="filterDiv hulu">
                       <img class="all-logo" id="jim" src="images/bgh.jpg"/>
@@ -87,8 +95,8 @@
                 <p class = "text-box"> Favorite subscription: Hulu </p>
                 </a>
           </div>
-                
-            
+
+
                     <div class = "friend-box">
                         <a href = "friend1.html" class="filterDiv prime">
                             <img class="all-logo" id="rachel" src="images/rachel.jpeg"/>
@@ -116,7 +124,7 @@
                     <p class = "top-text" style="color:grey"> Add a new friend </p>
                     </a>
               </div>
-            
+
           </div>
           <script>
             filterSelection("all")
