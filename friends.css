@@ -20,7 +20,7 @@
 	padding: 0%;
   margin-right:30px;
   width:350px;
-  
+
 }
 
 .friend-box:hover{
@@ -49,8 +49,9 @@ a:link {
 }
 .top-add-text {
 	font-size: 25px;
-	font-weight:bolder;
-	color: grey;
+	font-weight:bold;
+	color: black;
+	margin-top: 15px;
 }
 
 .text-box {
