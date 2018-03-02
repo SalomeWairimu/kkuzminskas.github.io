@@ -80,6 +80,12 @@ body {
     flex-wrap:wrap;
     justify-content: flex-start;
 }
+
+.all-box:hover{
+	background-color:#20A4F3;
+
+}
+
 .all-box {
 	background-color: white;
 	text-align: left;

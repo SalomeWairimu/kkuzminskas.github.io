@@ -22,6 +22,11 @@
   width:280px;
 }
 
+.friend-box:hover{
+	background-color:#20A4F3;
+
+}
+
 .top-text {
 	font-size: 25px;
 	font-weight:bold;
