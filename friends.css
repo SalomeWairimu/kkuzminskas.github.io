@@ -19,14 +19,22 @@
 	margin-left: 60px;
 	padding: 0%;
   margin-right: 60px;
-  width:400px;
+  width:350px;
 }
 
 .friend-box:hover{
 	background-color:#20A4F3;
 
 }
-
+.all-logo {
+	width: 120px;
+	height: 120px;
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-left: 10px;
+	border-radius: 50%;
+	float: left;
+}
 .top-text {
 	font-size: 25px;
 	font-weight:bold;
@@ -80,13 +88,7 @@
 .filterDiv {
     display:none;
 }
-.friend-box img{
-	width: 140px;
-	height: 140px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border-radius: 50%;
-}
+
 .btn {
     border: none;
     outline: none;
