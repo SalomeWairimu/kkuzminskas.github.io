@@ -9,7 +9,7 @@ body {
 	height: 107px;
 	background-color: black;
 	font-size: 15px;
-	padding-top: 20px;
+	padding-top: 20px
 	margin: auto;
 	padding-top: 40px;
 }
@@ -197,6 +197,16 @@ body {
 
 	font-size: 70%;
 }
+
+#edit-button {
+	font-size: 80%;
+	color: gray;
+	float: right;
+	margin-top: -20px;
+	margin-right: 55px;
+}
+
+
 
 .sub-header-profile
 {
