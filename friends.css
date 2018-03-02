@@ -20,7 +20,13 @@
 	padding: 0%;
   margin-right:30px;
   width:350px;
-  
+
+}
+
+#friends_tab_active
+{
+	background-color: white;
+	color: black;
 }
 
 .friend-box:hover{
