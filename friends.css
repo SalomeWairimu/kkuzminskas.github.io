@@ -11,7 +11,6 @@
     flex-wrap:wrap;
     justify-content: flex-start;
 }
-
 .friend-box {
 	background-color: white;
 	text-align: center;
@@ -21,19 +20,14 @@
 	padding: 0%;
   margin-right:30px;
   width:350px;
-
-}
-
-#friends_tab_active
-{
-	background-color: white;
-	color: black;
+  
 }
 
 .friend-box:hover{
 	background-color:#20A4F3;
 
 }
+
 .all-logo {
 	width: 125px;
 	height: 125px;
@@ -50,7 +44,9 @@
 	font-weight:bold;
 	color: black;
 }
-
+a:link {
+    text-decoration: none;
+}
 .top-add-text {
 	font-size: 25px;
 	font-weight:bolder;
@@ -62,9 +58,7 @@
 	color: black;
 }
 
-a:link {
-    text-decoration: none;
-}
+
 
 #myBtnContainer .btn {
     border: 0.5px solid grey;
