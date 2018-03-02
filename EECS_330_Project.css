@@ -101,7 +101,7 @@ body {
 }
 
 .unsubscribe {
-	color: blue;
+	color: #20A4F3;
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
@@ -116,6 +116,7 @@ body {
 	margin-bottom: 20px;
 
 }
+
 
 #graph{
 	width: 450px;
