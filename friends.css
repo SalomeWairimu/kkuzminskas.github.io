@@ -55,10 +55,8 @@
 	color: black;
 }
 
-.leftMost
-{
-
-    margin-left:-100px;
+a:link {
+    text-decoration: none;
 }
 
 #myBtnContainer .btn {
