@@ -78,7 +78,7 @@
                     </a>
               </div>
               <div class = "friend-box">
-                <a href = "friend1.html" class="filterDiv netflix" >
+                <a href = "EECS_330_Ron_Friend.html" class="filterDiv netflix" >
                     <img class="all-logo" id="ron" src="images/ron2.jpg"/>
                   <p class = "top-text"> Ron Swan Son</p>
                   <p class = "text-box"> Favorite subscription: Netflix </p>
@@ -133,7 +133,7 @@
                 if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
               }
             }
-            
+
             function w3AddClass(element, name) {
               var i, arr1, arr2;
               arr1 = element.className.split(" ");
@@ -142,19 +142,19 @@
                 if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
               }
             }
-            
+
             function w3RemoveClass(element, name) {
               var i, arr1, arr2;
               arr1 = element.className.split(" ");
               arr2 = name.split(" ");
               for (i = 0; i < arr2.length; i++) {
                 while (arr1.indexOf(arr2[i]) > -1) {
-                  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                  arr1.splice(arr1.indexOf(arr2[i]), 1);
                 }
               }
               element.className = arr1.join(" ");
             }
-            
+
             // Add active class to the current button (highlight it)
             var btnContainer = document.getElementById("myBtnContainer");
             var btns = btnContainer.getElementsByClassName("btn");
