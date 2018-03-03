@@ -7,8 +7,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
 
 </head>
 <body>
@@ -62,7 +65,15 @@
   <div class="basic_information"><ul id="user-name">Ron Swan Son</ul>
     <ul id="fav-sub">Favorite Subscription: Netflix</ul>
   </div>
-  <button id="edit-button" type="button">Friends</button>
+
+  <div class="dropdown">
+    <button onclick="myFunction()" class="friends-button"><i class="material-icons">done</i> Friends</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#">Unfriend</a>
+      <a href="#">Unfollow</a>
+      <a href="#">Block</a>
+    </div>
+</div>
 
 
   <div class="horiz-line"></div>
