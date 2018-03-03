@@ -209,11 +209,15 @@ body {
 	margin-right: 55px;
 }
 
-
-#check-mark{
-	font-size: 12px;
+#friend-button {
+	font-size: 80%;
+	color: gray;
 	float: left;
 	margin-left: 150px;
+	margin-top: -20px;
+}
+#check-mark{
+	font-size: 12px;
 }
 
 .sub-header-profile
