@@ -210,6 +210,11 @@ body {
 
 .friends-button{
 	color:black;
+
+}
+
+#check-mark{
+	font-size: 80%;
 }
 
 .sub-header-profile
