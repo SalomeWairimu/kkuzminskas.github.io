@@ -208,13 +208,11 @@ body {
 	margin-right: 55px;
 }
 
-.friends-button{
-	color:black;
-
-}
 
 #check-mark{
 	font-size: 12px;
+	float: left;
+	margin-left: 150px;
 }
 
 .sub-header-profile
