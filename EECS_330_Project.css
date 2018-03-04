@@ -210,10 +210,9 @@ body {
 }
 
 #friend-button {
-	font-size: 80%;
+	font-size: 60%;
 	color: gray;
 	float: left;
-	margin-left: 150px;
 	margin-top: 0px;
 }
 
