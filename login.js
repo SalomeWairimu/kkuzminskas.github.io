@@ -28,9 +28,12 @@ function checkUser() {
       }
     }
 
-    else {
-      document.getElementById('returning_User').action="login.html";
-      alert("Incorrect Username or password");
+    else if (name !=""){
+    	if(password !="")
+    	{
+	      document.getElementById('returning_User').action="login.html";
+	      alert("Incorrect Username or password");
+ 		 }
     }
 
 }
