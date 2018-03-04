@@ -15,7 +15,7 @@ function checkUser() {
     }
 
 
-    else if (name== "Pupper")
+    else if (name== "Fido")
     {
       if(password=="Treats")
       {
