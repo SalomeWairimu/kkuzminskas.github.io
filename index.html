@@ -70,13 +70,13 @@
     <br>
     <br>
     <br>
-      <form action="homePage.html">
+      <form action="" name="logging-in" autocomplete="on" id="returning_User">
             <h4><b>Returning User</b></h4>
             Username or email:<br>
-            <input type="text" name="firstname" value="">
+            <input type="text" name="firstname" value="" required>
             <br>
             Password:<br>
-            <input type="password" name="lastname" value="">
+            <input type="password" name="lastname" value="" required>
             <br><br>
             <input type="submit" onclick="checkUser()" value="Log in">
         </form>
@@ -90,5 +90,7 @@
         </div>
     </div>
     </div>
+
+    <script src="login.js"></script>
 </body>
 </html>
