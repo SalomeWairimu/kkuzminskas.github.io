@@ -24,7 +24,7 @@
 }
 
 .friend-box:hover{
-	background-color:#20A4F3;
+	background-color:#6DBDD6;
 
 }
 
@@ -119,7 +119,7 @@ body {
 
 .navbar {
 	height: 107px;
-	background-color: black;
+	background-color: #191919;
 	font-size: 15px;
 	padding-top: 20px;
 	margin: auto;
@@ -132,7 +132,7 @@ body {
 	font-weight: bold;
 	padding-top: 0px;
 	margin-top: -20px;
-	color: #20A4F3;
+	color: #6DBDD6;
 	padding-right: 700px;
 }
 
