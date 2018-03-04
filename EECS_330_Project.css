@@ -1,6 +1,6 @@
 
 body {
-	background-color: ##d9dfeb;
+	background-color: #d9dfeb;
 	font-family: Arial;
 }
 
@@ -42,6 +42,17 @@ body {
 	margin-top: 15px;
 
 }
+
+.active a{
+	background-color: #d9dfeb !important;
+	color: #191919 !important;
+
+}
+.nav .tab a:hover{
+	background-color: #d9dfeb !important;
+	color: #191919 !important;
+}
+
 
 .profile-pic
 {	float: right;

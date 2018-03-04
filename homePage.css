@@ -8,6 +8,16 @@ body {
 }
 
 
+.active a{
+	background-color: #d9dfeb !important;
+	color: #191919 !important;
+
+}
+.nav .tab a:hover{
+	background-color: #d9dfeb !important;
+	color: #191919 !important;
+}
+
 .navbar {
 	height: 107px;
 	background-color: #191919;
