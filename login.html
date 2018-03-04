@@ -27,9 +27,9 @@
         </div>
     </nav>
     <br>
-    
-    
-    
+
+
+
     <div id="main_page">
     <div id="new_users">
         <br>
@@ -56,9 +56,9 @@
         <input type="password" name="password" value="">
         <br><br>
         <input type="submit" value="Submit">
-      </form> 
+      </form>
     </div>
-    
+
     <div id="returning">
             <br>
             <br>
@@ -70,16 +70,16 @@
     <br>
     <br>
     <br>
-      <form action="homePage.html" autocomplete="on">
+      <form name="logging-in" action="" id="returning_User" autocomplete="on">
             <h4><b>Returning User</b></h4>
             Username or email<br>
-            <input type="text" name="firstname" value="">
+            <input type="text" name="username-return" value="" required>
             <br>
             Password<br>
-            <input type="password" name="lastname" value="">
+            <input type="password" name="password-return" value="" required>
             <br><br>
-            <input type="submit" value="Log in">
-        </form> 
+            <input type="submit" onclick="checkUser()" value="Log in">
+        </form>
         <div class="pass">
           <br>
             <label class="remember pull-left msT">
@@ -90,5 +90,6 @@
         </div>
     </div>
     </div>
+    <script src="login.js"></script>
 </body>
 </html>

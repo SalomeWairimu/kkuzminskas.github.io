@@ -7,19 +7,19 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="EECS_330_AppPage.js"> </script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
 </head>
 <body>
-
-  <link rel="stylesheet" type="text/css" href="EECS_330_Project.css"/>
+	<link rel="stylesheet" type="text/css" href="EECS_330_Project.css"/>
 
   <body>
 
     <!-- ################################# -->
     <!-- HEADER -->
+
+    <!-- templates? -->
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -31,7 +31,7 @@
             <a class="navbar-brand" id="site-name" href="homePage.html">MySubscriptionAddiction</a>
           </div>
           <ul class="nav nav-tabs">
-            <li class="tab active"><a href="homePage.html">My Subscriptions</a></li>
+            <li><a id="tabs_font" href="homePage.html">My Subscriptions</a></li>
             <li><a id="tabs_font" href="friends.html">My Friends</a></li>
             <li><a id="tabs_font" href="#">Search for subscriptions</a></li>
           </ul>
@@ -41,7 +41,7 @@
                   <li><a href="EECS_330_My_Profile_Page.html">My Profile</a></li>
                   <li><a href="#">Account Information</a></li>
                   <li><a href="#">Settings</a></li>
-                  <li><a href="login.html">Log Out</a></li>
+                  <li><a href="#">Log Out</a></li>
                 </ul>
               </ul>
             </ul>
@@ -51,29 +51,58 @@
 
 
 
+
     <!-- ################################# -->
     <!-- END OF HEADER -->
-</body>
 
-<div class="main-page">
-  <div class="page-wrapper">
-    <div class="app_photo"> <img src="/images/netflix_logo.jpeg"> </div>
-   <div class="app_info_wrapper">
-    <div class="app_name"> Netflix </div>
-    <div class="app_stats"> Cost: $10/month </div>
-    <div class="app_stats"> Usage this month: 13 hours </div>
-    <div class="app_stats"> Current plan: Normal, Monthly renewal </div>
-    <button class="unsubscribe" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> CANCEL HERE </button>
+
+    <div class="pro_pic_div">
+    <img id="pro-pic-large" src="images/rocket.png">
   </div>
-  <div class="graph_wrapper"> <div class="graph_button_wrapper" onload="">
-    <button id="graph_button" id="graph_yearly_button" onclick="graph_swap_yearly()">This Year</button>
-    <button id="graph_button" id="graph_monthly_button" onclick="graph_swap_monthly()">This Month</button>
-    <button id="graph_button" id="graph_weekly_button" onclick="graph_swap_weekly()">This Week</button></div>
-    <img id="graph" src="/images/mock_graph.jpeg"> </div>
-</div>
-</div>
-
-</body>
+  <div class="basic_information"><ul id="user-name">Rocket Man</ul>
+    <ul id="fav-sub">Favorite Subscription: Netflix</ul>
+  </div>
+  <button id="edit-button" type="button">Edit</button>
 
 
-</html>
+  <div class="horiz-line"></div>
+
+  <div class="sub-header-profile">
+    <div class="sub-head-name" id="my-subs-prof">My Subscriptions</div>
+    <div class="sub-head-name" id="prof-friends">My Friends</>
+  </div>
+
+<div class="box">
+    <div class = "all-box" >
+          <a href = "EECS_330_AppPage.html" >
+          <img class = "all-logo" src = "/images/netflix_logo.jpeg" alt = "Netflix logo"/>
+            <p class = "top-text"> Netflix </p>
+            <p class = "text-box"> 12 hours/month </p>
+            <p class = "text-box"> $5/month </p>
+          </a>
+    </div>
+    <div class =  "friend-box">
+      <a href="EECS_330_Ron_Friend.html">
+          <img class = "all-logo" src = "images/ron2.jpg" alt = "Hulu logo"/>
+            <p class = "top-text"> Ron Swan Son </p>
+            <p class = "text-box"> Favorite Subscription: Netflix </p>
+      </a>
+    </div>
+    </div>
+    <div class="box">
+    <div class =  "all-box">
+          <img class = "all-logo" src = "images/Hulu.jpg" alt = "Hulu logo"/>
+            <p class = "top-text"> Hulu </p>
+            <p class = "text-box"> 18 hours/month </p>
+            <p class = "text-box"> $7.99/month </p>
+      </div>
+
+    <div class =  "friend-box">
+          <img class = "all-logo" src = "images/gator.png" alt = "Hulu logo"/>
+            <p class = "top-text"> Jim Boe  </p>
+            <p class = "text-box"> Favorite Subscription: Netflix </p>
+    </div>
+    </div>
+
+
+  </body>
