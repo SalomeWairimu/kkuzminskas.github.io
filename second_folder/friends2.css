@@ -1,0 +1,175 @@
+
+.material-icons.md-180{
+	font-size: 180px;
+}
+
+#main_page
+{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+}
+.friend-box {
+	background-color: white;
+	text-align: center;
+	border: 4px solid grey;
+	margin-top: 50px;
+	margin-left: 40px;
+	padding: 0%;
+  margin-right:30px;
+  width:350px;
+
+}
+
+.friend-box:hover{
+	background-color:#20A4F3;
+
+}
+
+.all-logo {
+	width: 125px;
+	height: 125px;
+	margin-top: 8px;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	margin-left: 10px;
+	border-radius: 50%;
+	float: left;
+}
+.top-text {
+	margin-top: 8px;
+	font-size: 25px;
+	font-weight:bold;
+	color: black;
+}
+a:link {
+    text-decoration: none;
+}
+.top-add-text {
+	font-size: 25px;
+	font-weight:bold;
+	color: black;
+	margin-top: 15px;
+}
+
+.text-box {
+	font-size: 18px;
+	color: black;
+}
+
+
+
+#myBtnContainer .btn {
+    border: 0.5px solid grey;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+
+  /* Add a light grey background on mouse-over */
+  #myBtnContainer .btn:hover {
+    background-color: #ddd;
+  }
+
+  /* Add a dark background to the active button */
+  #myBtnContainer .btn.active {
+    background-color:#425458;
+    color: white;
+  }
+
+.tab active a{
+    background-color: white;
+    color:#555;
+}
+
+.show {
+    display: block;
+}
+.filterDiv {
+    display:none;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: #ddd;
+  }
+
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+	/* header css*/
+
+body {
+	background-color: white;
+	font-family: Arial;
+}
+
+
+.navbar {
+	height: 107px;
+	background-color: black;
+	font-size: 15px;
+	padding-top: 20px;
+	margin: auto;
+	padding-top: 40px;
+}
+
+#site-name {
+	font-size: 30px;
+	padding-right: 50px;
+	font-weight: bold;
+	padding-top: 0px;
+	margin-top: -20px;
+	color: #20A4F3;
+	padding-right: 700px;
+}
+
+.nav
+{
+	float:left;
+	margin-top:-20px;
+}
+
+
+#tabs_font
+{
+	color: white;
+}
+
+.nav .tab {
+	margin-top: 15px;
+
+}
+
+.profile-pic
+{	float: right;
+	margin-top: -15px;
+	margin-right: 15px;
+}
+
+#dropdown_button {
+	color: white;
+	margin-right: 20px;
+}
+
+#dropdown_person{
+	color: white;
+	width: 40px;
+	height: 40px;
+}
+
+.dropdown-menu {
+	margin-left: -80px;
+}

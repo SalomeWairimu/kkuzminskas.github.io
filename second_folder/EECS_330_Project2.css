@@ -1,0 +1,345 @@
+
+body {
+	background-color: #e5e9f2;
+	font-family: Arial;
+}
+
+
+.navbar {
+	height: 107px;
+	background-color: black;
+	font-size: 15px;
+	padding-top: 20px
+	margin: auto;
+	padding-top: 40px;
+}
+
+
+#site-name {
+	font-size: 30px;
+	padding-right: 50px;
+	font-weight: bold;
+	padding-top: 0px;
+	margin-top: -20px;
+	color: #20A4F3;
+	padding-right: 700px;
+}
+
+.nav
+{
+	float:left;
+	margin-top:-20px;
+}
+
+
+#tabs_font
+{
+	margin-top: 15px;
+	color: white;
+}
+
+.nav .tab {
+	margin-top: 15px;
+
+}
+
+.profile-pic
+{	float: right;
+	margin-top: -15px;
+	margin-right: 15px;
+}
+
+#dropdown_button {
+	color: white;
+	margin-right: 20px;
+}
+
+#dropdown_person{
+	color: white;
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+}
+
+.dropdown-menu {
+	margin-left: -80px;
+}
+
+
+.page-wrapper{
+	margin-top: 150px;
+}
+
+/* page specific css */
+
+/* EECS_330_AppPage */
+
+.app_info_wrapper {
+	float: left;
+	width: 350px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-color: grey;
+}
+
+.app_photo img {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+.app_name {
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: red;
+}
+
+.app_stats {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+.unsubscribe {
+	color: #20A4F3;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 250px;
+}
+
+.graph_wrapper {
+	float: right;
+	margin-top: 25px;
+	margin-right: 200px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+}
+
+
+#graph{
+	width: 450px;
+	height: 450px;
+}
+
+.graph_button_wrapper {
+
+}
+
+#graph_yearly_button {
+
+}
+
+#graphy_monthly_button {
+
+}
+
+#graphy_weekly_button{
+
+}
+
+#graph_button .btn{
+    border: 0.5px solid grey;
+    outline: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#graph_button .btn:hover{
+	background-color: #ddd;
+}
+
+#graph_button .btn.active{
+    background-color:#425458;
+    color: white;
+}
+
+
+/* EECS_330_My_Profile_Page */
+
+.profile_box
+{
+	background-color: white;
+	text-align: center;
+	border: 4px solid grey;
+	margin-top: 50px;
+	margin-left: 60px;
+	padding: 0%;
+    margin-right: 60px;
+    width:280px;
+}
+
+#pro-pic-large
+{
+	margin-top: 140px;
+	margin-left: 15px;
+	width: 150px;
+	height: 150px;
+	border: 4px solid grey;
+}
+
+.basic_information
+{
+	float: left;
+	margin-top: -150px;
+	margin-left: 140px;
+	font-size: 160%;
+}
+
+#user-name
+{
+	font-weight: bold;
+}
+
+#fav-sub
+{
+
+	font-size: 70%;
+}
+
+#edit-button {
+	font-size: 80%;
+	color: gray;
+	float: right;
+	margin-top: -20px;
+	margin-right: 55px;
+}
+
+#friend-button {
+	font-size: 60%;
+	color: gray;
+	float: left;
+	margin-top: 0px;
+}
+
+#check-mark{
+	font-size: 12px;
+}
+
+.sub-header-profile
+{
+	float: left;
+	font-size: 180%;
+	margin-top: 10px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+.horiz-line
+{
+	margin-top: 20px;
+	border-bottom: 4px solid black;
+	padding: 0px;
+}
+
+.sub-head-name {
+	display: inline;
+	padding-left: 5px;
+	padding-right: 350px;
+	width: 200%;
+	color: #20A4F3;
+}
+
+#prof-friends
+{
+	margin-left: -10px;
+
+}
+
+.all-box {
+	background-color: white;
+	display: flex-inline;
+	border: 4px solid grey;
+	margin-top: 30px;
+	margin-right: 40px;
+	width:330px;
+}
+
+.all-box:hover{
+	background-color:#20A4F3;
+
+}
+
+.friend-box:hover{
+	background-color:#20A4F3;
+
+}
+
+.all-logo {
+	width: 120px;
+	height: 120px;
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-left: 10px;
+	border-radius: 50%;
+	float: left;
+}
+
+.top-text {
+	font-size: 20px;
+	font-weight: bolder;
+	color: black;
+	margin-top: 15px;
+}
+
+.top-add-text {
+	font-size: 20px;
+	font-weight: bolder;
+	color: grey;
+	margin-top: 25px;
+}
+
+.text-box {
+	font-size: 18px;
+	color: black;
+}
+
+.adding_box_padding
+{
+	border-right: 6px solid black;
+	height: 400px;
+	display: inline;
+}
+
+.box
+{
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin-top: -20px;
+
+}
+.friend-box {
+	margin-top: 30px;
+	width: 375px;
+	border: 4px solid grey;
+	height: 135px;
+	margin-left: 200px;
+	padding-right: 10px;
+	background-color: white;
+}
+
+.top-text {
+	font-size: 25px;
+	font-weight:bold;
+	color: black;
+}
+
+.top-add-text {
+	font-size: 25px;
+	font-weight:bolder;
+	color: grey;
+}
+
+.text-box {
+	font-size: 18px;
+	color: black;
+}
+
+
+#shared_with_info{
+
+}

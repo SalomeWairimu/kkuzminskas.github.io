@@ -9,8 +9,28 @@ function checkUser() {
     	}
     	else
     	{
-    		document.getElementById('returning_User').action="friends.html";
+        document.getElementById('returning_User').action="login.html";
+    		alert("Incorrect Username or password");
     	}
+    }
+
+
+    else if (name== "Pupper")
+    {
+      if(password=="Treats")
+      {
+        document.getElementById('returning_User').action="homePage2.html";
+      }
+      else
+      {
+        document.getElementById('returning_User').action="login.html";
+        alert("Incorrect Username or password");
+      }
+    }
+
+    else {
+      document.getElementById('returning_User').action="login.html";
+      alert("Incorrect Username or password");
     }
 
 }
