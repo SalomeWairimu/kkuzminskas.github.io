@@ -28,50 +28,19 @@
     </nav>
     <br>
 
+    <br>
+    <br>
+    <br>
 
-
-    <div id="main_page">
-    <div id="new_users">
-        <br>
-        <br>
-        <br>
-    <form action="homePage.html">
-        <h4><b>New User</b></h4>
-        Full name*:<br>
-        <input type="text" name="firstname" value="">
-        <br>
-        Preferred username:<br>
-        <input id="input_box" type="text" name="lastname" value="" required>
-        <br>
-        Email address*:<br>
-        <input type="text" name="email" value="">
-        <br>
-        Phone number:<br>
-        <input type="text" name="phoneNumber" value="">
-        <br>
-        Password*:<br>
-        <input type="password" name="password" value="">
-        <br>
-        Re-enter Password*:<br>
-        <input type="password" name="password" value="">
-        <br><br>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-
-    <div id="returning">
+    <div id="main">
+        <ul>
+            <li><a href="signup.html"><h4>Sign up</h4></a></li>
+            <li style="border-right: 0px"><a href="index.html"><h4>Log in</h4></a></li>
+        </ul>
+        
+            <hr noshade style="size:40px">
             <br>
-            <br>
-            <br>
-            <br>
-            <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-      <form action="" name="logging-in" autocomplete="on" id="returning_User">
-            <h4><b>Returning User</b></h4>
+      <form action="" name="logging-in"  style="margin-bottom:60px;margin-left:180px;" autocomplete="on" id="returning_User">
             Username or email:<br>
             <input type="text" name="username-return" value="" required>
             <br>
@@ -79,15 +48,16 @@
             <input type="password" name="password-return" value="" required>
             <br><br>
             <input type="submit" onclick="checkUser()" value="Log in">
+            <div class="pass">
+                <br>
+                  <label class="remember pull-left msT">
+                      <input type="checkbox" id="remember_me" value="on">
+                      <!-- react-text: 32 -->Remember me<!-- /react-text -->
+                  </label>
+                  <a target="_blank" href="password_recovery.html" class="cursor pull-right password-retrieve btn btn-link">Forgot your password?</a>
+              </div>
         </form>
-        <div class="pass">
-          <br>
-            <label class="remember pull-left msT">
-                <input type="checkbox" id="remember_me" value="on">
-                <!-- react-text: 32 -->Remember me<!-- /react-text -->
-            </label>
-            <a target="_blank" href="password_recovery.html" class="cursor pull-right password-retrieve btn btn-link">Forgot your password?</a>
-        </div>
+        
     </div>
     </div>
 
