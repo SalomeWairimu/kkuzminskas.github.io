@@ -222,7 +222,7 @@ body {
 	font-size: 60%;
 	color: gray;
 	float: left;
-	margin-left: 35px;
+	margin-left: 40px;
 }
 
 #check-mark{
@@ -309,7 +309,7 @@ body {
 .subs-friends
 {
 	display: inline-flex;
-	margin-left: 5px;
+	margin-left: 10px;
 }
 
 .all-box:hover{
