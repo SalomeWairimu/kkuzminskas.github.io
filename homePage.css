@@ -11,8 +11,8 @@ body {
 .active a{
 	background-color: #d9dfeb !important;
 	color: #191919 !important;
-
 }
+
 .nav .tab a:hover{
 	background-color: #d9dfeb !important;
 	color: #191919 !important;
@@ -50,9 +50,9 @@ body {
 	margin-top: 15px;
 }
 
-.nav .tab {
-	margin-top: 15px;
 
+.nav .tab {
+	margin-top: 0px;
 }
 
 .profile-pic

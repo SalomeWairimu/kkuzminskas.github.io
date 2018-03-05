@@ -1,5 +1,5 @@
 body {
-	background-color: ##d9dfeb;
+	background-color: #d9dfeb;
 	font-family: Arial;
 }
 
@@ -39,7 +39,16 @@ body {
 
 .nav .tab {
 	margin-top: 15px;
+}
 
+.active a{
+	background-color: #d9dfeb !important;
+	color: #191919 !important;
+}
+
+.nav .tab a:hover{
+	background-color: #d9dfeb !important;
+	color: #191919 !important;
 }
 
 .profile-pic
@@ -198,7 +207,6 @@ body {
 
 #fav-sub
 {
-
 	font-size: 70%;
 }
 
@@ -214,7 +222,7 @@ body {
 	font-size: 60%;
 	color: gray;
 	float: left;
-	margin-left: 30px;
+	margin-left: 40px;
 }
 
 #check-mark{
@@ -242,13 +250,21 @@ body {
 	padding-left: 5px;
 	padding-right: 350px;
 	width: 200%;
-	color: #20A4F3;
+	color: #6DBDD6;
+}
+
+.sub-head-name-ron{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 400px;
+	width: 200%;
+	color: #6DBDD6;
+
 }
 
 #prof-friends
 {
 	margin-left: -10px;
-
 }
 
 .all-box {
@@ -257,7 +273,7 @@ body {
 	margin-right: 40px;
 	width:350px;
 	padding: 0px;
-	height: 150px;
+	height: 175px;
 	margin-bottom: 10px;
 }
 
@@ -277,7 +293,7 @@ body {
 	background-color: white;
 	padding-right: 5px;
 	margin-bottom: 10px;
-	height: 150px;
+	height: 175px;
 }
 
 
@@ -293,16 +309,15 @@ body {
 .subs-friends
 {
 	display: inline-flex;
+	margin-left: 10px;
 }
 
 .all-box:hover{
-	background-color:#20A4F3;
-
+	background-color:#6DBDD6;
 }
 
 .friend-box:hover{
-	background-color:#20A4F3;
-
+	background-color:#6DBDD6;
 }
 
 .all-logo {
