@@ -43,17 +43,6 @@ body {
 
 }
 
-.active a{
-	background-color: #d9dfeb !important;
-	color: #191919 !important;
-
-}
-.nav .tab a:hover{
-	background-color: #d9dfeb !important;
-	color: #191919 !important;
-}
-
-
 .profile-pic
 {	float: right;
 	margin-top: -15px;
