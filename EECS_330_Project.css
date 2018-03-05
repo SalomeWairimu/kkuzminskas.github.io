@@ -198,7 +198,6 @@ body {
 
 #fav-sub
 {
-
 	font-size: 70%;
 }
 
@@ -214,7 +213,7 @@ body {
 	font-size: 60%;
 	color: gray;
 	float: left;
-	margin-left: 30px;
+	margin-left: 35px;
 }
 
 #check-mark{
@@ -254,12 +253,9 @@ body {
 
 }
 
-
-
 #prof-friends
 {
 	margin-left: -10px;
-
 }
 
 .all-box {
