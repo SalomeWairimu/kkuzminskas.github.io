@@ -39,7 +39,16 @@ body {
 
 .nav .tab {
 	margin-top: 15px;
+}
 
+.active a{
+	background-color: #d9dfeb !important;
+	color: #191919 !important;
+}
+
+.nav .tab a:hover{
+	background-color: #d9dfeb !important;
+	color: #191919 !important;
 }
 
 .profile-pic
@@ -310,17 +319,6 @@ body {
 .friend-box:hover{
 	background-color:#6DBDD6;
 }
-
-.active a{
-	background-color: #d9dfeb !important;
-	color: #191919 !important;
-}
-
-.nav .tab a:hover{
-	background-color: #d9dfeb !important;
-	color: #191919 !important;
-}
-
 
 .all-logo {
 	width: 120px;
