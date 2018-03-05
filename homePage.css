@@ -3,14 +3,24 @@
 					*/
 
 body {
-	background-color: white;
+	background-color: #d9dfeb;
 	font-family: Arial;
 }
 
 
+.active a{
+	background-color: #d9dfeb !important;
+	color: #191919 !important;
+
+}
+.nav .tab a:hover{
+	background-color: #d9dfeb !important;
+	color: #191919 !important;
+}
+
 .navbar {
 	height: 107px;
-	background-color: black;
+	background-color: #191919;
 	font-size: 15px;
 	padding-top: 20px;
 	margin: auto;
@@ -23,7 +33,7 @@ body {
 	font-weight: bold;
 	padding-top: 0px;
 	margin-top: -20px;
-	color: #20A4F3;
+	color: #6DBDD6;
 	padding-right: 700px;
 }
 
@@ -84,7 +94,7 @@ body {
 }
 
 .all-box:hover{
-	background-color:#20A4F3;
+	background-color:  #6DBDD6;
 
 }
 
