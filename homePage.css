@@ -51,6 +51,10 @@ body {
 }
 
 
+.nav .tab {
+	margin-top: 0px;
+}
+
 .profile-pic
 {
 	float: right;
