@@ -242,8 +242,19 @@ body {
 	padding-left: 5px;
 	padding-right: 350px;
 	width: 200%;
-	color: #20A4F3;
+	color: #6DBDD6;
 }
+
+.sub-head-name-ron{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 400px;
+	width: 200%;
+	color: #6DBDD6;
+
+}
+
+
 
 #prof-friends
 {
