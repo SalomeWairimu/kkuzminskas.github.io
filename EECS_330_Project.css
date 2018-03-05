@@ -306,6 +306,15 @@ body {
   padding-top: 5px;
 }
 
+.friends-boxes-ron
+{ height: 350px;
+  overflow: scroll;
+  width: 410px;
+  overflow-x: hidden;
+  margin-left: 215px;
+  padding-top: 5px;
+}
+
 .subs-friends
 {
 	display: inline-flex;
