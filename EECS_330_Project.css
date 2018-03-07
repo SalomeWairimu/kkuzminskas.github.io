@@ -104,7 +104,11 @@ body {
 	margin-top: 20px;
 	margin-bottom: 30px;
 	color: #6DBDD6;
-	outline-color: black;
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
 }
 
 .app_stats {
