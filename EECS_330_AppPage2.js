@@ -1,12 +1,12 @@
 function  graph_swap_monthly(){
-	document.getElementById("graph").src = "/images/mock_monthly_graph.jpeg";
+	document.getElementById("graph").src = "/images/EECS_330_Spotify_ThisMonth_Graph.jpg";
 }
 
 
 function graph_swap_yearly(){
-	document.getElementById("graph").src = "/images/mock_graph.jpeg";
+	document.getElementById("graph").src = "/images/EECS_330_Spotify_ThisYear_Graph.jpg";
 }
 
 function graph_swap_weekly(){
-	document.getElementById("graph").src = "/images/mock_weekly_graph.jpeg";
+	document.getElementById("graph").src = "/images/EECS_330_Spotify_ThisWeek_Graph.jpg";
 }
