@@ -41,7 +41,7 @@ body {
 	margin-top: 0px;
 }
 
-.active #profile a{
+.active a{
 	background-color: #d9dfeb !important;
 	color: #191919 !important;
 	margin-top: 15px;
@@ -310,7 +310,7 @@ body {
 	margin-left: 10px;
 }
 
-.all-box:hover{
+.all-box #profile:hover{
 	background-color:#6DBDD6;
 }
 
