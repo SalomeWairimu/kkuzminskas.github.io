@@ -150,12 +150,12 @@ body {
   }
 
   /* Add a light grey background on mouse-over */
-  #myBtnContainer .btn:hover {
+#myBtnContainer .btn:hover {
     background-color: #ddd;
-  }
+}
 
   /* Add a dark background to the active button */
-  #myBtnContainer .btn.active {
+#myBtnContainer .btn.active {
     background-color:#425458;
     color: white;
 }
