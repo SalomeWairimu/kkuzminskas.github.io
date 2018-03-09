@@ -41,7 +41,7 @@ body {
 	margin-top: 0px;
 }
 
-.active a{
+.active #profile a{
 	background-color: #d9dfeb !important;
 	color: #191919 !important;
 	margin-top: 15px;
