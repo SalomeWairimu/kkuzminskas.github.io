@@ -141,9 +141,52 @@ body {
 #graph{
 }
 
-.graph_button{
-	color: #6DBDD6;
-	font-weight: bold;
+#myBtnContainer .btn {
+    border: 0.5px solid grey;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+
+  /* Add a light grey background on mouse-over */
+  #myBtnContainer .btn:hover {
+    background-color: #ddd;
+  }
+
+  /* Add a dark background to the active button */
+  #myBtnContainer .btn.active {
+    background-color:#425458;
+    color: white;
+}
+
+.tab active a{
+    background-color: white;
+    color:#555;
+}
+
+.show {
+    display: block;
+}
+.filterDiv {
+    display:none;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+  .btn:hover {
+    background-color: #ddd;
+}
+
+  .btn.active {
+    background-color: #666;
+    color: white;
 }
 
 .graph_button_wrapper {
