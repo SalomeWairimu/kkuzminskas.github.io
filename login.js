@@ -9,7 +9,7 @@ function checkUser() {
     	}
     	else
     	{
-        document.getElementById('returning_User').action="login.html";
+        document.getElementById('returning_User').action="index.html";
     		alert("Incorrect Username or password");
     	}
     }
@@ -23,7 +23,7 @@ function checkUser() {
       }
       else
       {
-        document.getElementById('returning_User').action="login.html";
+        document.getElementById('returning_User').action="index.html";
         alert("Incorrect Username or password");
       }
     }
