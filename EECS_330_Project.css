@@ -141,23 +141,25 @@ body {
 #graph{
 }
 
+.graph_button{
+	color: #6DBDD6;
+	font-weight: bold;
+}
+
 .graph_button_wrapper {
 
 }
 
 #graph_yearly_button {
-	color: #6DBDD6;
-	font-weight: bold;
+
 }
 
 #graphy_monthly_button {
-	color: #6DBDD6;
-	font-weight: bold;
+
 }
 
-#graphy_weekly_button{
-	color: #6DBDD6;
-	font-weight: bold;
+#graphy_weekly_button {
+
 }
 
 
