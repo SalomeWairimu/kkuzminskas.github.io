@@ -31,7 +31,7 @@ function checkUser() {
     else if (name !=""){
     	if(password !="")
     	{
-	      document.getElementById('returning_User').action="login.html";
+	      document.getElementById('returning_User').action="index.html";
 	      alert("Incorrect Username or password");
  		 }
     }
