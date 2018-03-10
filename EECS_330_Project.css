@@ -451,11 +451,10 @@ body {
   float: right;
   border: none;
   height: 20px;
-  margin-top: -15px;
+  margin-top: -5px;
 }
 
 .text{
-  margin-top: -10px;
   float: right;
   margin-right: 5px;
   color: #6b6b6b;
