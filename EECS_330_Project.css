@@ -472,12 +472,11 @@ body {
    border: none;
   height: 20px;
   margin-top: -15px;
-
-
 }
 
 .all-box:hover{
 	background-color:#6DBDD6;
+	opacity: 1;
 }
 
 .all-box:hover .vbutton{
