@@ -10,3 +10,11 @@ function graph_swap_yearly(){
 function graph_swap_weekly(){
 	document.getElementById("graph").src = "/images/EECS_330_Netflix_ThisWeek_Graph.jpg";
 }
+
+function change_button_hover(){
+
+}
+
+function change_button_click(){
+	
+}
