@@ -376,22 +376,6 @@ body {
 	margin-left: 10px;
 }
 
-.all-box:hover{
-	background-color:#6DBDD6;
-}
-
-.all-box:hover #vbutton{
-  background-color:#6DBDD6;
-}
-
-.all-box-profile:hover #vbutton{
-  background-color:#6DBDD6;
-}
-
-#visi:hover{
-    background-color: #6DBDD6;
-    opacity: 1;
-}
 
 .friend-box:hover{
 	background-color:#6DBDD6;
@@ -461,8 +445,6 @@ body {
     background-color: #e7e7e7;
 }
 
-
-
 #vbutton-off{
   background-color: #e7e7e7;
   color: #6b6b6b;
@@ -493,6 +475,24 @@ body {
 
 
 }
+
+.all-box:hover{
+	background-color:#6DBDD6;
+}
+
+.all-box:hover .vbutton{
+  background-color:#6DBDD6;
+}
+
+.all-box-profile:hover .vbutton{
+  background-color:#6DBDD6;
+}
+
+#visi:hover{
+    background-color: #6DBDD6;
+    opacity: 1;
+}
+
 
 #shared_with_info{
 }
