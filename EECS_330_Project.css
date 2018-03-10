@@ -384,6 +384,11 @@ body {
   background-color:#6DBDD6;
 }
 
+.all-box-profile:hover .vbutton{
+  background-color:#6DBDD6;
+}
+
+
 .friend-box:hover{
 	background-color:#6DBDD6;
 }
