@@ -319,7 +319,7 @@ body {
 	padding: 0px;
 	height: 175px;
 	margin-bottom: 10px;
-	color: blue;
+	color: green;
 }
 
 .all-box-profile {
@@ -377,7 +377,7 @@ body {
 	margin-left: 10px;
 }
 
-.all-box-profile:hover{
+.all-box:hover{
 	background-color:#6DBDD6;
 }
 
