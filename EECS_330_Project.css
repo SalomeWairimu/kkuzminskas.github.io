@@ -388,6 +388,10 @@ body {
   background-color:#6DBDD6;
 }
 
+#visi:hover{
+    background-color: #6DBDD6;
+    opacity: 1;
+}
 
 .friend-box:hover{
 	background-color:#6DBDD6;
