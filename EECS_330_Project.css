@@ -385,5 +385,47 @@ body {
 }
 
 
+#visi p{
+  color: #6b6b6b;
+}
+
+#visi
+{
+    background-color: #e7e7e7;
+}
+
+
+
+#vbutton-off{
+  background-color: #e7e7e7;
+  color: #6b6b6b;
+  float: right;
+  border: none;
+  height: 20px;
+  margin-top: -15px;
+}
+
+.text{
+  margin-top: -10px;
+  float: right;
+  margin-right: 5px;
+  color: #6b6b6b;
+}
+
+#button-wrap{
+  float: right;
+}
+
+#vbutton{
+  background-color: white;
+  color: #6b6b6b;
+  float: right;
+   border: none;
+  height: 20px;
+  margin-top: -15px;
+
+
+}
+
 #shared_with_info{
 }
