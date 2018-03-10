@@ -486,7 +486,7 @@ body {
 #vbutton{
   background-color: white;
   color: #6b6b6b;
-
+  float: right;
    border: none;
   height: 20px;
   margin-top: -15px;
