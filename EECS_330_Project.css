@@ -263,6 +263,13 @@ body {
 	margin-left: 40px;
 }
 
+#current-friends {
+	font-size: 60%;
+	color: gray;
+	float: left;
+	margin-left: 40px;
+}
+
 #check-mark{
 	font-size: 12px;
 }
