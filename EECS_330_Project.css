@@ -485,7 +485,10 @@ body {
 }
 
 
-
+#visi:hover{
+    background-color: #6DBDD6;
+    opacity: 1;
+}
 
 
 #shared_with_info{
