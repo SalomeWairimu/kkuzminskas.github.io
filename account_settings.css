@@ -1,0 +1,289 @@
+/*
+	Global classes
+					*/
+
+body {
+	background-color: #d9dfeb;
+	font-family: Arial;
+}
+
+
+.active a{
+	background-color: #d9dfeb !important;
+	color: #191919 !important;
+}
+
+.nav .tab a:hover{
+	background-color: #d9dfeb !important;
+	color: #191919 !important;
+}
+
+.navbar {
+	height: 107px;
+	background-color: #191919;
+	font-size: 15px;
+	padding-top: 20px;
+	margin: auto;
+	padding-top: 40px;
+}
+
+#site-name {
+	font-size: 30px;
+	padding-right: 50px;
+	font-weight: bold;
+	padding-top: 0px;
+	margin-top: -20px;
+	color: #6DBDD6;
+	padding-right: 700px;
+}
+
+.nav
+{
+	float:left;
+	margin-top:-20px;
+}
+
+
+#tabs_font
+{
+	color: white;
+	margin-top: 15px;
+}
+
+
+.nav .tab {
+	margin-top: 0px;
+}
+
+#subs-tab-home{
+	margin-top: 15px;
+}
+
+.profile-pic
+{
+	float: right;
+	margin-top: -15px;
+	margin-right: 15px;
+}
+
+
+#dropdown_button {
+	color: white;
+	margin-right: 20px;
+}
+
+#dropdown_person{
+	color: white;
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+.dropdown-menu {
+	margin-left: -80px;
+}
+
+
+
+
+
+#main_page
+{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+}
+
+.page_name {
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.horiz_line {
+  border-color: black;
+  margin-top: 0px;
+  border-width: 2px;
+}
+
+.horiz_line2 {
+  border-color: grey;
+  margin-top: 0px;
+  margin-bottom: -70px;
+}
+
+.horiz_line3 {
+  border-color: grey;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.horiz_line4 {
+  border-color: grey;
+  margin-top: 0px;
+  margin-bottom: -70px;
+}
+
+.horiz_line5 {
+  border-color: grey;
+  margin-top: 0px;
+  margin-bottom: -70px;
+}
+
+
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab2 {
+    float: left;
+    background-color: #d9dfeb;
+    width: 20%;
+    height: 430px;
+    margin-top: -20px;
+}
+
+/* Style the buttons inside the tab */
+.tab2 button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/* Change background color of buttons on hover */
+.tab2 button:hover {
+    background-color: #c1c1c1;
+    border-bottom: 1px solid black;
+    border-right: 1px solid #d9dfeb;
+}
+
+/* Create an active/current "tab button" class */
+.tab2 button.active {
+    background-color: #6dbdd6;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 50px;
+    width: 70%;
+    border-left: none;
+    height: 100px;
+    font-size: 25px;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+p2 {
+  color:grey;
+  font-weight: normal;
+}
+
+.edit_1 {
+  font-size: 12px;
+  margin-top:-72px;
+  margin-left: 770px;
+}
+
+.header_stuff {
+  font-weight: bold;
+  line-height: 10px;
+}
+
+.sub_stuff {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 60px;
+  color: grey;
+}
+
+.new_horiz1 {
+  border-color: grey;
+  margin-top: -10px;
+  margin-bottom: -75px;
+}
+
+.new_horiz2 {
+  border-color: grey;
+  margin-top: -5px;
+  margin-bottom: -50px;
+}
+
+.new_horiz3 {
+  border-color: grey;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
+.sub_stuff1 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: -0px;
+  color: grey;
+}
+
+.security_choice {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: grey;
+  margin-left: 450px;
+  margin-top: -75px;
+}
+
+.security_choice1 {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: grey;
+  margin-left: 450px;
+  margin-top: -75px;
+}
+
+.edit_2 {
+  font-size: 12px;
+  margin-top:-62px;
+  margin-left: 760px;
+}
+
+.edit_3 {
+  font-size: 12px;
+  margin-top:-52px;
+  margin-left: 760px;
+}
+
+.edit_4 {
+  font-size: 12px;
+  margin-top:-30px;
+  margin-left: 760px;
+}
+
+.horiz_line6 {
+  border-color: grey;
+  margin-top: 0px;
+  margin-bottom: -50px;
+}
+
+.security_choice2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: grey;
+  margin-left: 450px;
+  margin-top: -85px;
+  line-height: 30px;
+}
