@@ -287,3 +287,9 @@ p2 {
   margin-top: -85px;
   line-height: 30px;
 }
+
+.horiz_line7 {
+  border-color: grey;
+  margin-top: 10px;
+  margin-bottom: -70px;
+}
