@@ -77,9 +77,10 @@ input{
 }
 #main
 {
-	border: 4px solid grey;
+	background-color: white;
+	border: 2px solid grey;
 	margin-top:50px;
-	margin-left:402.01px;
+	margin-left:405.09px;
 	margin-right:350px;
 }
 #main ul{
