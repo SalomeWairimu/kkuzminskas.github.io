@@ -41,7 +41,7 @@
                   <li><a href="EECS_330_My_Profile_Page2.html">My Profile</a></li>
                   <li><a href="#">Account Information</a></li>
                   <li><a href="#">Settings</a></li>
-                  <li><a href="login.html">Log Out</a></li>
+                  <li><a href="index.html">Log Out</a></li>
                 </ul>
               </ul>
             </ul>
@@ -74,27 +74,31 @@
 
 <div class="subs-friends">
 <div class="subs-box">
-    <a href = "EECS_330_AppPage.html" >
-      <div class = "all-box" >
+    <a href = "EECS_330_AppPage2.html" >
+      <div class = "all-box">
           <img class = "all-logo" src = "/images/Spotify.jpg" alt = "Spotify logo"/>
             <p class = "top-text"> Spotify </p>
             <p class = "text-box"> 13 hours/month </p>
             <p class = "text-box"> $4.99/month </p>
-    </div>
+            <p id="button-wrap"><div class="text" id="11">Friends </div> <button onclick="changeVisi(1, 11)" class="vbutton" id="vbutton-on"><i id="1" class="material-icons">visibility</i></button> </p>
+          </div>
     </a>
-    
-    <div class =  "all-box">
+
+    <div class =  "all-box" id="visi">
           <img class = "all-logo" src = "images/Hulu.jpg" alt = "Hulu logo"/>
             <p class = "top-text"> Hulu </p>
             <p class = "text-box"> 18 hours/month </p>
             <p class = "text-box"> $7.99/month </p>
+            <p id="button-wrap"><div class="text" id="22">Only Me </div> <button onclick="changeVisi(2, 22)" class="vbutton" id="vbutton-off"><i id="2" class="material-icons">visibility_off</i></button> </p>
+
       </div>
 
-      <div class =  "all-box">
+      <div class =  "all-box" id="visi">
           <img class = "all-logo" src = "images/Amazon_test.jpg" alt = "Amazon logo"/>
             <p class = "top-text"> Amazon </p>
             <p class = "text-box"> 4 orders/month </p>
             <p class = "text-box"> $49/year </p>
+            <p id="button-wrap"><div class="text" id="33">Only Me </div> <button onclick="changeVisi(3, 33)" class="vbutton" id="vbutton-off"><i id="3" class="material-icons">visibility_off</i></button> </p>
       </div>
 
 </div>
