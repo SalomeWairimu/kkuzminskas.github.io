@@ -469,26 +469,26 @@ body {
 }
 
 .all-box:hover{
-	background-color:#6DBDD6;
-	opacity: 1;
+	background-color:#6DBDD6 !important;
+	opacity: 1 !important;
 }
 
 .all-box-off:hover{
-	background-color:#6DBDD6 ;
-	opacity: 1;
+	background-color:#6DBDD6 !important;
+	opacity: 1 !important;
 }
 
 .all-box-off:hover .vbutton-off{
-  background-color:#6DBDD6;
+  background-color:#6DBDD6 !important;
 }
 
 .all-box:hover .vbutton{
-  background-color:#6DBDD6;
+  background-color:#6DBDD6 !important;
 }
 
 
 .vbutton:hover {
-	background-color: white !important;
+	background-color: #e7e7e7 !important;
 }
 
 .vbutton-off:hover{
