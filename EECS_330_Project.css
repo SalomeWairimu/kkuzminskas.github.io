@@ -469,11 +469,16 @@ body {
 }
 
 .all-box:hover{
-	background-color:#6DBDD6;
+	background-color:#6DBDD6 !important;
 	opacity: 1;
 }
 
-.all-box:hover .vbutton{
+.all-box-off:hover{
+	background-color:#6DBDD6 !important;
+	opacity: 1;
+}
+
+.all-box-off:hover .vbutton{
   background-color:#6DBDD6 !important;
 }
 
@@ -481,6 +486,11 @@ body {
 .vbutton:hover{
 	background-color: #6DBDD6 !important;
 }
+
+.vbutton-off:hover{
+	background-color: #6DBDD6 !important;
+}
+
 
 #shared_with_info{
 }
