@@ -474,12 +474,12 @@ body {
 }
 
 .all-box:hover .vbutton{
-  background-color:#6DBDD6 ;
+  background-color:#6DBDD6 !important;
 }
 
 
 .vbutton:hover{
-	background-color: #e7e7e7 !important;
+	background-color: #6DBDD6 !important;
 }
 
 #shared_with_info{
