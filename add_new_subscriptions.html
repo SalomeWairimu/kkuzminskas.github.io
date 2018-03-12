@@ -35,13 +35,12 @@
         <ul class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><img id="dropdown_person" src="images/rocket.png"><span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="EECS_330_My_Profile_Page.html">My Profile</a></li>
-                <li><a href="#">Account Information</a></li>
-                <li><a href="#">Settings</a></li>
+                <li><a href="account_settings.html">Account Information</a></li>
                 <li><a href="index.html">Log Out</a></li>
               </ul>
             </ul>
           </ul>
-          
+
       </div>
           <ul class="pick_tab">
               <li class=""><a href="add_new_friend.html"><p>Add friends</p></a></li>
@@ -94,15 +93,15 @@
           <a href="#">Military plans</a>
           <a href="#">Other</a>
         </div>
-      </div> 
+      </div>
     </div>
-  
+
 
     <br>
   <br>
- 
-  
-  
+
+
+
 <div id="all_rows_subs">
   <div id="row_1">
       <div class =  " filterDiv 20-30 all-box">
@@ -113,7 +112,7 @@
             <p class = "text-box"> Popularity:5/7 friends </p>
           </a>
         </div>
-    
+
       <div class =  " filterDiv 0-10 all-box">
         <a href="https://www.ipsy.com/">
         <img class = "all-logo" src = "images/ipsy.png"/>
@@ -150,8 +149,8 @@
               <p class = "text-box"> Popularity:2/7 friends  </p>
             </a>
         </div>
-    
-      
+
+
 </div>
 <div id="row_3">
 
@@ -171,7 +170,7 @@
         <p class = "text-box"> Popularity:2/7 friends </p>
       </a>
   </div>
-  
+
 
 </div>
 </div>
@@ -188,7 +187,7 @@
                 all[i].style.display = "";
             } else {
                 all[i].style.display = "none";
-    
+
             }
         }
     }
@@ -212,7 +211,7 @@ window.onclick = function(e) {
     if (popularity.classList.contains('show')) {
         popularity.classList.remove('show');
       }}
-  if (!e.target.matches('#dsbtn')) 
+  if (!e.target.matches('#dsbtn'))
   {
     var discounted = document.getElementById("discounted");
     if (discounted.classList.contains('show')) {
@@ -245,7 +244,7 @@ function w3RemoveClass(element, name) {
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
     while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
     }
   }
   element.className = arr1.join(" ");
