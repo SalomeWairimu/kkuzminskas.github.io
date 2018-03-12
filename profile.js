@@ -2,7 +2,7 @@ var eye_off="";
 
 
 
-function changeVisi(id, id2,id3)
+function changeVisi(id, id2,id3, id4)
 {
 	eye_off=document.getElementById(id).innerHTML;
 
@@ -28,5 +28,5 @@ function changeVisi(id, id2,id3)
    document.getElementById(id2).innerHTML=text_off;
    document.getElementById(id3).style.background=color;
    document.getElementById(id3).style.opacity=opacity;
-
+   document.getElementById(id4).style.background=color;
 }
