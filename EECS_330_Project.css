@@ -440,7 +440,7 @@ body {
 }
 
 
-#vbutton-off{
+.vbutton-off{
   background-color: #e7e7e7;
   color: #6b6b6b;
   float: right;
@@ -459,7 +459,7 @@ body {
   float: right;
 }
 
-#vbutton-on{
+.vbutton{
   background-color: white;
   color: #6b6b6b;
   float: right;
