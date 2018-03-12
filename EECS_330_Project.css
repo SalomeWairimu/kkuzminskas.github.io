@@ -469,29 +469,29 @@ body {
 }
 
 .all-box:hover{
-	background-color:#6DBDD6 !important;
+	background-color:#6DBDD6;
 	opacity: 1;
 }
 
 .all-box-off:hover{
-	background-color:#6DBDD6 !important;
+	background-color:#6DBDD6 ;
 	opacity: 1;
 }
 
 .all-box-off:hover .vbutton{
-  background-color:#6DBDD6 !important;
+  background-color:#6DBDD6;
 }
 
 .all-box:hover .vbutton{
-  background-color:#6DBDD6 !important;
+  background-color:#6DBDD6;
 }
 
 
-.vbutton:hover .all-box{
+.vbutton:hover {
 	background-color: white !important;
 }
 
-.vbutton-off:hover .all-box-off{
+.vbutton-off:hover{
 	background-color: #e7e7e7 !important;
 }
 
