@@ -76,7 +76,7 @@ a:link {
 
   /* Add a dark background to the active button */
   #myBtnContainer .btn.active {
-    background-color:#425458;
+    background-color:#191919;
     color: white;
   }
 
