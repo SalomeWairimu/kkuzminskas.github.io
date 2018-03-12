@@ -451,7 +451,7 @@ body {
   color: #6b6b6b;
   float: right;
   border: none;
-  height: 20px;
+  height: 25px;
   margin-top: -5px;
 }
 
@@ -470,7 +470,7 @@ body {
   color: #6b6b6b;
   float: right;
    border: none;
-  height: 20px;
+  height: 25px;
   margin-top: -5px;
 }
 
@@ -489,6 +489,9 @@ body {
     opacity: 1;
 }
 
+.vbutton:hover{
+	background-color: #e7e7e7 !important;
+}
 
 #shared_with_info{
 }
