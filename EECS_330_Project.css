@@ -482,6 +482,10 @@ body {
   background-color:#6DBDD6 !important;
 }
 
+.all-box:hover .vbutton{
+  background-color:#6DBDD6 !important;
+}
+
 
 .vbutton:hover{
 	background-color: white !important;
