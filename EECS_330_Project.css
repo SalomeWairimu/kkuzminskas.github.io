@@ -488,11 +488,11 @@ body {
 
 
 .vbutton:hover {
-	background-color: #e7e7e7 !important;
+	color: #191919 !important;
 }
 
 .vbutton-off:hover{
-	background-color: #e7e7e7 !important;
+	color: #191919 !important;
 }
 
 
