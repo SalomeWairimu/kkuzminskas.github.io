@@ -487,12 +487,12 @@ body {
 }
 
 
-.vbutton:hover{
+.vbutton:hover .all-box{
 	background-color: white !important;
 }
 
-.vbutton-off:hover{
-	background-color: white !important;
+.vbutton-off:hover .all-box-off{
+	background-color: #e7e7e7 !important;
 }
 
 
