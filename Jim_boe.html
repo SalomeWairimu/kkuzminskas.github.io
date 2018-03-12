@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="EECS_330_Project.css"/>
+
+  <body>
+
+    <!-- ################################# -->
+    <!-- HEADER -->
+
+    <!-- templates? -->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#testNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="site-name" href="homePage.html">MySubscriptionAddiction</a>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class="tab"><a id="tabs_font" href="homePage.html">My Subscriptions</a></li>
+            <li class="tab"><a id="tabs_font" href="friends.html">My Friends</a></li>
+            <li class="tab"><a id="tabs_font"  href="add_new_subscriptions.html">Search for friends or subscriptions</a></li>
+          </ul>
+          <ul class="profile-pic navbar-nav">
+          <ul class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><img id="dropdown_person" src="images/rocket.png"><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="EECS_330_My_Profile_Page.html">My Profile</a></li>
+                  <li><a href="account_settings.html">Account Information</a></li>
+                  <li><a href="index.html">Log Out</a></li>
+                </ul>
+              </ul>
+            </ul>
+
+        </div>
+      </nav>
+
+
+
+
+    <!-- ################################# -->
+    <!-- END OF HEADER -->
+
+
+    <div class="pro_pic_div">
+    <img id="pro-pic-large" src="images/gator.png">
+  </div>
+  <div class="basic_information"><ul id="user-name">Jim Boe</ul>
+    <ul id="fav-sub">Favorite Subscription: Netflix</ul>
+      <button id="friend-button" type="button"><i id="check-mark" class="material-icons">done</i> Friends</button>
+  </div>
+
+
+
+
+
+
+  <div class="horiz-line"></div>
+
+  <div class="sub-header-profile">
+    <div class="sub-head-name-ron" id="my-subs-prof">Jim's Subscriptions</div>
+    <div class="sub-head-name-ron" id="prof-friends">Jim's Friends</div>
+  </div>
+<div class="subs-friends">
+<div class="subs-box">
+    <div class = "all-box" >
+          <img class = "all-logo" src = "/images/netflix_logo.jpeg" alt = "Netflix logo"/>
+            <p class = "top-text"> Netflix </p>
+            <p class = "text-box"> 102 hours/month </p>
+            <p class = "text-box"> $5/month </p>
+    </div>
+    <div class =  "all-box">
+          <img class = "all-logo" src = "images/Hulu.jpg" alt = "Hulu logo"/>
+            <p class = "top-text"> Hulu </p>
+            <p class = "text-box"> 7 hours/month </p>
+            <p class = "text-box"> $7.99/month </p>
+      </div>
+  </div>
+
+    <div class="friends-boxes-ron">
+      <div class =  "friend-box">
+            <img class = "all-logo" src = "images/barney.jpg" alt = "Hulu logo"/>
+              <p class = "top-text"> Barney Stinson </p>
+              <p class = "text-box"> Favorite Subscription: Hulu </p>
+              <button id="current-friends" type="button"><i id="check-mark" class="material-icons">done</i> Friends</button>
+      </div>
+
+    <a href="EECS_330_My_Profile_Page.html">
+    <div class ="friend-box">
+          <img class = "all-logo" src = "images/rocket.png" alt = "Rocket Man Profile Picture"/>
+            <p class = "top-text"> Rocket Man </p>
+            <p class = "text-box"> Favorite Subscription: Netflix </p>
+             <button id="current-friends" type="button"><i id="check-mark" class="material-icons">done</i> Friends</button>
+    </div>
+  </a>
+
+    </div>
+  </div>
+
+
+  </body>
