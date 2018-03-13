@@ -267,9 +267,8 @@ body {
 
 #current-friends {
 	color: gray;
-	float: left;
-	margin-left: 40px;
-	margin-top: -10px;
+	float: right;
+	margin-top: -5px;
 }
 
 #check-mark{
