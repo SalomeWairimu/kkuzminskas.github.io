@@ -370,9 +370,9 @@ body {
 .friends-boxes-ron
 { height: 350px;
   overflow: scroll;
-  width: 755px;
+  width: 800px;
   overflow-x: hidden;
-  margin-left: 215px;
+  margin-left: 185px;
   padding-top: 5px;
 }
 
