@@ -447,13 +447,14 @@ body {
   float: right;
   border: none;
   height: 25px;
-  margin-top: -5px;
+  margin-top: -15px;
 }
 
 .text{
   float: right;
   margin-right: 5px;
   color: #6b6b6b;
+	margin-top: -10px;
 }
 
 #button-wrap{
@@ -466,7 +467,7 @@ body {
   float: right;
    border: none;
   height: 25px;
-  margin-top: -5px;
+  margin-top: -15px;
 }
 
 .all-box:hover{
