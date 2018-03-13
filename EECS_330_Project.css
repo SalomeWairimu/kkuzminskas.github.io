@@ -302,7 +302,7 @@ body {
 .sub-head-name-ron{
 	display: inline;
 	padding-left: 5px;
-	padding-right: 375px;
+	padding-right: 310px;
 	width: 200%;
 	color: #6DBDD6;
 
@@ -346,20 +346,21 @@ body {
 
 
 .friend-box {
-	width: 375px;
+	width: 350px;
 	border: 4px solid grey;
-	height: 135px;
 	background-color: white;
 	padding-right: 5px;
 	margin-bottom: 10px;
 	height: 175px;
+	display: inline-block;
+	margin-left: 10px;
 }
 
 
 .friends-boxes
 { height: 350px;
   overflow: scroll;
-  width: 410px;
+  width: 755px;
   overflow-x: hidden;
   margin-left: 185px;
   padding-top: 5px;
@@ -368,7 +369,7 @@ body {
 .friends-boxes-ron
 { height: 350px;
   overflow: scroll;
-  width: 410px;
+  width: 755px;
   overflow-x: hidden;
   margin-left: 215px;
   padding-top: 5px;
