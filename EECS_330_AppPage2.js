@@ -29,11 +29,3 @@ function graph_swap_weekly(){
   weekly.className="graph_button  active";
   monthly.className="graph_button";
 }
-
-function change_button_hover(){
-
-}
-
-function change_button_click(){
-	
-}
