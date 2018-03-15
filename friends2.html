@@ -61,30 +61,30 @@
 
 
 
-                <div class = "friend-box">
-                    <a href = "Jim_boe2.html" class="filterDiv netflix">
+                <div class = "filterDiv netflix friend-box">
+                    <a href = "Jim_boe2.html" class="">
                         <img class="all-logo" id="jim" src="images/gator.png"/>
                       <p class = "top-text"> Jim Boe </p>
                       <p class = "text-box"> Favorite subscription: Netflix </p>
                       </a>
                 </div>
 
-                <div class = "friend-box">
-                  <a href = "Nana_Johnson2.html" class="filterDiv hulu">
+                <div class = "filterDiv hulu friend-box">
+                  <a href = "Nana_Johnson2.html" class="">
                       <img class="all-logo" id="jim" src="images/bgh.jpg"/>
                     <p class = "top-text"> Nana Johnson </p>
                     <p class = "text-box"> Favorite subscription: Hulu </p>
                     </a>
               </div>
-              <div class = "friend-box">
-                <a href = "EECS_330_Ron_Friend2.html" class="filterDiv netflix" >
+              <div class = "filterDiv netflix friend-box">
+                <a href = "EECS_330_Ron_Friend2.html" class="" >
                     <img class="all-logo" id="ron" src="images/ron2.jpg"/>
                   <p class = "top-text"> Ron Swan Son</p>
                   <p class = "text-box"> Favorite subscription: Netflix </p>
                   </a>
             </div>
-            <div class = "friend-box">
-              <a href = "bojack2.html" class="filterDiv hulu">
+            <div class = "filterDiv hulu friend-box">
+              <a href = "bojack2.html" class="">
                   <img class="all-logo" id="jim" src="images/bojack.jpg"/>
                 <p class = "top-text"> Bojack Horseman </p>
                 <p class = "text-box"> Favorite subscription: Hulu </p>
@@ -92,22 +92,22 @@
           </div>
 
 
-                    <div class = "friend-box">
-                        <a href = "rachel_green2.html" class="filterDiv prime">
+                    <div class = "filterDiv prime friend-box">
+                        <a href = "rachel_green2.html" class="">
                             <img class="all-logo" id="rachel" src="images/rachel.jpeg"/>
                           <p class = "top-text"> Rachel Green </p>
                           <p class = "text-box"> Favorite subscription: Prime </p>
                           </a>
                     </div>
-                    <div class = "friend-box">
-                      <a href = "timmyt2.html" class="filterDiv hbo">
+                    <div class = "filterDiv hbo friend-box">
+                      <a href = "timmyt2.html" class="">
                           <img class="all-logo" id="rachel" src="images/timmyt.jpeg"/>
                         <p class = "top-text"> Timmy Turner </p>
                         <p class = "text-box"> Favorite subscription: HBO </p>
                         </a>
                   </div>
-                  <div class = "friend-box">
-                    <a href = "barney2.html" class="filterDiv hulu">
+                  <div class = "filterDiv hulu friend-box">
+                    <a href = "barney2.html" class="">
                     <img class="all-logo" id="barney" src="images/barney.jpg"/>
                       <p class = "top-text"> Barney Stinson </p>
                       <p class = "text-box"> Favorite subscription: Hulu </p>
@@ -159,9 +159,10 @@
             var btns = btnContainer.getElementsByClassName("btn");
             for (var i = 0; i < btns.length; i++) {
               btns[i].addEventListener("click", function(){
-                var current = document.getElementsByClassName("active");
-                current[0].className = current[0].className.replace(" active", "");
+                var current = document.getElementsByClassName("btn active");
+                current[0].className = current[0].className.replace("btn active", "btn");
                 this.className += " active";
+            
               });
             }
             </script>
