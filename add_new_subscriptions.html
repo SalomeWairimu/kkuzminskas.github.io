@@ -53,7 +53,7 @@
 
   <!-- ################################# -->
   <!-- END OF HEADER -->
-  <br>
+
   <br>
   <br>
   <br>
@@ -66,32 +66,32 @@
   <div class="my_filter" style="background-color: blue">
       <div class="new_dropdown">
           <button class="dropbtn" id="prbtn" onclick="myPriceFunction()">Price range
-              <i class="material-icons">arrow_drop_down</i>
+            <img class = "dd" style="height:12px;width:8px;" src = "images/dd.png"/>
           </button>
           <div class="dropdown-content" id="prices">
-            <button onclick="filterSelection('0-10')"> $0-$10</button>
-            <button onclick="filterSelection('10-20')">$10-$20</button>
-            <button onclick="filterSelection('20-30')">$20-$30</button>
-            <button onclick="filterSelection('>30')">above $30</button>
+            <a onclick="mainfilter('0-10')"> $0-$10</a>
+            <a onclick="mainfilter('10-20')">$10-$20</a>
+            <a onclick="mainfilter('20-30')">$20-$30</a>
+            <a onclick="mainfilter('30-90')">above $30</a>
           </div>
         </div>
       <div class="new_dropdown">
           <button class="dropbtn" id="pobtn" onclick="myPopularityFunction()">Popularity
-              <i class="material-icons">arrow_drop_down</i>
+            <img class = "dd" style="height:12px;width:8px;" src = "images/dd.png"/>
           </button>
           <div class="dropdown-content" id="popularity">
-            <a href="#">Most popular</a>
-            <a href="#">Least popular</a>
+            <a onclick="mainfilter('pop')">Most popular</a>
+            <a onclick="mainfilter('unliked')">Least popular</a>
           </div>
         </div>
       <div class="new_dropdown">
         <button class="dropbtn" id="dsbtn" onclick="myDiscountedFunction()">Discounted
-            <i class="material-icons">arrow_drop_down</i>
+          <img class = "dd" style="height:12px;width:8px;" src = "images/dd.png"/>
         </button>
         <div class="dropdown-content" id="discounted">
-          <a href="#">Student plans</a>
-          <a href="#">Military plans</a>
-          <a href="#">Other</a>
+          <a onclick="mainfilter('student')">Student plans</a>
+          <a onclick="mainfilter('family')">Family plans</a>
+          <a onclick="mainfilter('other')">Other</a>
         </div>
       </div>
     </div>
@@ -103,19 +103,19 @@
 
 
   <div id="all_rows_subs">
-      <div id="row_1">
+    
           <a href="https://www.adobe.com/products/photoshop.html">
-          <div class = "all-box">
+          <div class = "filterDiv 20-30 30-900 pop student all-box">
             
               <img class = "all-logo" src = "images/psl.jpg"/>
                 <p class = "top-text"> Photoshop </p>
-                <p class = "text-box">Price range:$30</p>
+                <p class = "text-box">Price range:$30-$60</p>
                 <p class = "text-box"> Popularity:5/7 friends </p>
-             
+                <p class="text-box">Discounted plans</p>
             </div>
           </a>
             <a href="https://www.ipsy.com/">
-          <div class ="all-box">
+          <div class ="filterDiv 10-20 0-10 unliked all-box">
             
             <img class = "all-logo" src = "images/ipsy.png"/>
               <p class = "top-text"> Ipsy </p>
@@ -124,21 +124,9 @@
             
         </div>
       </a>
-      <a href = "https://www.youtube.com/red" >
-        <div class = "all-box" >
-            
-            <img class = "all-logo" src = "images/redd.jpg"/>
-              <p class = "top-text"> YouTube Red </p>
-              <p class = "text-box"> Price range:$10-$15 </p>
-              <p class = "text-box"> Popularity:4/7 friends </p>
-              <p class = "text-box"> Discounted plans </p>
-           
-          </div>
-        </a>
-        </div>
-        <div id="row_2">
+      
             <a href="https://www.mathworks.com/pricing-licensing.html">
-            <div class =  "all-box">
+            <div class =  "filterDiv 10-20 0-10 unliked student all-box">
               
                 <img class = "all-logo" src = "images/matlab.png"/>
                   <p class = "top-text"> Matlab </p>
@@ -148,8 +136,20 @@
                 
             </div>
           </a>
+          <a href = "https://www.youtube.com/red" >
+            <div class = "filterDiv 10-20 pop family all-box" >
+                
+                <img class = "all-logo" src = "images/redd.jpg"/>
+                  <p class = "top-text"> YouTube Red </p>
+                  <p class = "text-box"> Price range:$10-$15 </p>
+                  <p class = "text-box"> Popularity:4/7 friends </p>
+                  <p class = "text-box"> Discounted plans </p>
+               
+              </div>
+            </a>
+         
             <a href="https://www.kaylaitsines.com/">
-            <div class =  "all-box">
+            <div class =  "filterDiv 10-20 unliked all-box">
               
                 <img class = "all-logo" src = "images/sweat.jpg"/>
                   <p class = "top-text"> Sweat </p>
@@ -160,10 +160,9 @@
           </a>
     
     
-    </div>
-    <div id="row_3">
+   
       <a href="https://www.ediets.com/">
-      <div class ="all-box">
+      <div class ="filterDiv 10-20 0-10 unliked all-box">
         
           <img class = "all-logo" src = "images/ediets.png"/>
             <p class = "top-text"> eDiets </p>
@@ -173,18 +172,18 @@
       </div>
     </a>
       <a href="https://www.copyblogger.com/">
-      <div class ="all-box">
+      <div class =" filterDiv 10-20 0-10 unliked all-box">
         
           <img class = "all-logo" src = "images/cb.png"/>
             <p class = "top-text"> CopyBlogger </p>
             <p class = "text-box">Price range:$8-$20</p>
             <p class = "text-box"> Popularity:2/7 friends </p>
           
-      </div>
+      
     </a>
     
     </div>
-    </div>
+    
     
     <script>
         function mySearchFunction() {
@@ -229,8 +228,29 @@
             discounted.classList.remove('show');
           }}
     }
+    function mainfilter(c)
+    {
+      var all,i;
+      all=document.getElementsByClassName("filterDiv");
+      for(i=0;i<all.length;i++)
+      {
+        if (all[i].className.indexOf(c) > -1)
+        {
+          all[i].style.display = "";
+        }
+        else
+        {
+          all[i].style.display = "none";
+        }
+      }
+    }
     
+    
+
+
+
+
+
         </script>
     </body>
     </html>
-    
