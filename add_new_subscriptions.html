@@ -63,7 +63,12 @@
   <br>
   <br>
   <br>
-  <div class="my_filter" style="background-color: blue">
+  <div class="my_filter">
+      <div class="new_dropdown">
+          <button class="dropbtn" style="width:90px;" id="srbtn" onclick="ShowallFunction()">Show all
+            
+          </button>
+        </div>
       <div class="new_dropdown">
           <button class="dropbtn" id="prbtn" onclick="myPriceFunction()">Price range
             <img class = "dd" style="height:12px;width:8px;" src = "images/dd.png"/>
@@ -227,6 +232,14 @@
         if (discounted.classList.contains('show')) {
             discounted.classList.remove('show');
           }}
+
+    }
+    function ShowallFunction()
+    {
+      var all=document.getElementsByClassName("all-box")
+            for (i = 0; i < all.length; i++) {
+              all[i].style.display = "";
+            }
     }
     function mainfilter(c)
     {
