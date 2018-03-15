@@ -102,153 +102,135 @@
 
 
 
-<div id="all_rows_subs">
-  <div id="row_1">
-      <div class =  " filterDiv 20-30 all-box">
-        <a href="https://www.adobe.com/products/photoshop.html">
-          <img class = "all-logo" src = "images/psl.jpg"/>
-            <p class = "top-text"> Photoshop </p>
-            <p class = "text-box">Price range:$30</p>
-            <p class = "text-box"> Popularity:5/7 friends </p>
+  <div id="all_rows_subs">
+      <div id="row_1">
+          <a href="https://www.adobe.com/products/photoshop.html">
+          <div class = "all-box">
+            
+              <img class = "all-logo" src = "images/psl.jpg"/>
+                <p class = "top-text"> Photoshop </p>
+                <p class = "text-box">Price range:$30</p>
+                <p class = "text-box"> Popularity:5/7 friends </p>
+             
+            </div>
           </a>
+            <a href="https://www.ipsy.com/">
+          <div class ="all-box">
+            
+            <img class = "all-logo" src = "images/ipsy.png"/>
+              <p class = "top-text"> Ipsy </p>
+              <p class = "text-box">Price range:$10 </p>
+              <p class = "text-box">  Popularity:0/7 friends </p>
+            
         </div>
-
-      <div class =  " filterDiv 0-10 all-box">
-        <a href="https://www.ipsy.com/">
-        <img class = "all-logo" src = "images/ipsy.png"/>
-          <p class = "top-text"> Ipsy </p>
-          <p class = "text-box">Price range:$10 </p>
-          <p class = "text-box">  Popularity:0/7 friends </p>
-        </a>
-    </div>
-    <div class = "all-box filterDiv 10-20" >
-        <a href = "https://www.youtube.com/red" >
-        <img class = "all-logo" src = "images/redd.jpg"/>
-          <p class = "top-text"> YouTube Red </p>
-          <p class = "text-box"> Price range:$10-$15 </p>
-          <p class = "text-box"> Popularity:4/7 friends </p>
-          <p class = "text-box"> Discounted plans </p>
-        </a>
-      </div>
-    </div>
-    <div id="row_2">
-        <div class =  "all-box filterDiv 0-10 10-20">
-          <a href="https://www.mathworks.com/pricing-licensing.html">
-            <img class = "all-logo" src = "images/matlab.png"/>
-              <p class = "top-text"> Matlab </p>
-              <p class = "text-box">Price range:$8-$20</p>
-              <p class = "text-box"> Popularity:2/7 friends </p>
+      </a>
+      <a href = "https://www.youtube.com/red" >
+        <div class = "all-box" >
+            
+            <img class = "all-logo" src = "images/redd.jpg"/>
+              <p class = "top-text"> YouTube Red </p>
+              <p class = "text-box"> Price range:$10-$15 </p>
+              <p class = "text-box"> Popularity:4/7 friends </p>
               <p class = "text-box"> Discounted plans </p>
-            </a>
+           
+          </div>
+        </a>
         </div>
-        <div class =  "all-box filterDiv 10-20">
-          <a href="https://www.kaylaitsines.com/">
-            <img class = "all-logo" src = "images/sweat.jpg"/>
-              <p class = "top-text"> Sweat </p>
-              <p class = "text-box"> Price range:$16 </p>
-              <p class = "text-box"> Popularity:2/7 friends  </p>
-            </a>
-        </div>
-
-
-</div>
-<div id="row_3">
-
-  <div class =  "all-box filterDiv 0-10 10-20">
-    <a href="https://www.ediets.com/">
-      <img class = "all-logo" src = "images/ediets.png"/>
-        <p class = "top-text"> eDiets </p>
-        <p class = "text-box"> Price range:$8-$16 </p>
-        <p class = "text-box"> Popularity:1/7 friends  </p>
-      </a>
-  </div>
-  <div class =  "all-box filterDiv 0-10 10-20">
-    <a href="https://www.copyblogger.com/">
-      <img class = "all-logo" src = "images/cb.png"/>
-        <p class = "top-text"> CopyBlogger </p>
-        <p class = "text-box">Price range:$8-$20</p>
-        <p class = "text-box"> Popularity:2/7 friends </p>
-      </a>
-  </div>
-
-
-</div>
-</div>
-
-<script>
-    function mySearchFunction() {
-        var input, filter, all, p, i,j;
-        input = document.getElementById("myInput");
-        filter = input.value.toUpperCase();
-        all=document.getElementsByClassName("all-box")
-        for (i = 0; i < all.length; i++) {
-            p = all[i].getElementsByTagName("p")[0];
-            if (p.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                all[i].style.display = "";
-            } else {
-                all[i].style.display = "none";
-
+        <div id="row_2">
+            <a href="https://www.mathworks.com/pricing-licensing.html">
+            <div class =  "all-box">
+              
+                <img class = "all-logo" src = "images/matlab.png"/>
+                  <p class = "top-text"> Matlab </p>
+                  <p class = "text-box">Price range:$8-$20</p>
+                  <p class = "text-box"> Popularity:2/7 friends </p>
+                  <p class = "text-box"> Discounted plans </p>
+                
+            </div>
+          </a>
+            <a href="https://www.kaylaitsines.com/">
+            <div class =  "all-box">
+              
+                <img class = "all-logo" src = "images/sweat.jpg"/>
+                  <p class = "top-text"> Sweat </p>
+                  <p class = "text-box"> Price range:$16 </p>
+                  <p class = "text-box"> Popularity:2/7 friends  </p>
+               
+            </div>
+          </a>
+    
+    
+    </div>
+    <div id="row_3">
+      <a href="https://www.ediets.com/">
+      <div class ="all-box">
+        
+          <img class = "all-logo" src = "images/ediets.png"/>
+            <p class = "top-text"> eDiets </p>
+            <p class = "text-box"> Price range:$8-$16 </p>
+            <p class = "text-box"> Popularity:1/7 friends  </p>
+          
+      </div>
+    </a>
+      <a href="https://www.copyblogger.com/">
+      <div class ="all-box">
+        
+          <img class = "all-logo" src = "images/cb.png"/>
+            <p class = "top-text"> CopyBlogger </p>
+            <p class = "text-box">Price range:$8-$20</p>
+            <p class = "text-box"> Popularity:2/7 friends </p>
+          
+      </div>
+    </a>
+    
+    </div>
+    </div>
+    
+    <script>
+        function mySearchFunction() {
+            var input, filter, all, p, i,j,a;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            all=document.getElementsByClassName("all-box")
+            for (i = 0; i < all.length; i++) {
+                p = all[i].getElementsByTagName("p")[0];
+                if (p.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    all[i].style.display = "";
+                } else {
+                    all[i].style.display = "none";
+    
+                }
             }
         }
+        function myPriceFunction() {
+        document.getElementById("prices").classList.toggle("show");}
+        function myPopularityFunction() {
+        document.getElementById("popularity").classList.toggle("show");}
+        function myDiscountedFunction() {
+        document.getElementById("discounted").classList.toggle("show");
     }
-    function myPriceFunction() {
-    document.getElementById("prices").classList.toggle("show");}
-    function myPopularityFunction() {
-    document.getElementById("popularity").classList.toggle("show");}
-    function myDiscountedFunction() {
-    document.getElementById("discounted").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('#prbtn')) {
-    var prices = document.getElementById("prices");
-    if (prices.classList.contains('show')) {
-        prices.classList.remove('show');
-      }}
-  if (!e.target.matches('#pobtn')) {
-    var popularity = document.getElementById("popularity");
-    if (popularity.classList.contains('show')) {
-        popularity.classList.remove('show');
-      }}
-  if (!e.target.matches('#dsbtn'))
-  {
-    var discounted = document.getElementById("discounted");
-    if (discounted.classList.contains('show')) {
-        discounted.classList.remove('show');
-      }}
-}
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('#prbtn')) {
+        var prices = document.getElementById("prices");
+        if (prices.classList.contains('show')) {
+            prices.classList.remove('show');
+          }}
+      if (!e.target.matches('#pobtn')) {
+        var popularity = document.getElementById("popularity");
+        if (popularity.classList.contains('show')) {
+            popularity.classList.remove('show');
+          }}
+      if (!e.target.matches('#dsbtn'))
+      {
+        var discounted = document.getElementById("discounted");
+        if (discounted.classList.contains('show')) {
+            discounted.classList.remove('show');
+          }}
     }
-  }
-  element.className = arr1.join(" ");
-}
-    </script>
-</body>
-</html>
+    
+        </script>
+    </body>
+    </html>
+    
